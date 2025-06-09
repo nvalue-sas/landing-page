@@ -1,11 +1,25 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import HeroSection from '../components/HeroSection.astro';
+import ServicesSection from '../components/ServicesSection.astro';
+import PortfolioSection from '../components/PortfolioSection.astro';
+import AboutSection from '../components/AboutSection.astro';
+import TechnologiesSection from '../components/TechnologiesSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+import Footer from '../components/Footer.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="nValue: Desarrollo de software empresarial personalizado para empresas y entidades gubernamentales.">
+	<Navbar />
+	<HeroSection />
+	<ServicesSection />
+	<PortfolioSection />
+	<AboutSection />
+	<TechnologiesSection />
+	<ContactSection />
+	<Footer />
 </Layout>
