@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-@theme{
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
     --color-primary-50: #effaff;
     --color-primary-100: #def5ff;
     --color-primary-200: #b6eeff;
@@ -11,8 +13,8 @@
     --color-primary-700: #007cab;
     --color-primary-800: #00688d;
     --color-primary-900: #065674;
-    --color-primary-950: #04374d;    
-    
+    --color-primary-950: #04374d;
+
     --color-secondary-50: #f6f6f6;
     --color-secondary-100: #e7e7e7;
     --color-secondary-200: #d1d1d1;
@@ -24,5 +26,5 @@
     --color-secondary-800: #454545;
     --color-secondary-900: #3d3d3d;
     --color-secondary-950: #2e2e2e;
-    
+
 }
