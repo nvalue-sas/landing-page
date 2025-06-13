@@ -1,4 +1,5 @@
 # landing-page
+
 Landing page of our company
 
 ## Requirements
@@ -18,23 +19,24 @@ Preferably use Visual Studio Code or any fork of it. And add the next extensions
 - Tailwind CSS Intellisense (check the next link for more info: https://tailwindcss.com/docs/editor-setup)
 - Prettier - Code formatter
 
-
 ## How to run the project
 
 - Install dependencies
-    ```bash
-    npm install
-    ```
+
+  ```bash
+  npm install
+  ```
 
 - Run the project
-    ```bash
-    npm run dev
-    ```
+
+  ```bash
+  npm run dev
+  ```
 
 - Build the project
-    ```bash
-    npm run build
-    ```
+  ```bash
+  npm run build
+  ```
 
 ## License
 
