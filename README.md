@@ -4,38 +4,46 @@ Landing page of our company
 
 ## Requirements
 
-- Node.js
-- npm
+- [Bun](https://bun.sh/) (Required package manager and runtime)
 - Astro
 - TypeScript
 - Vite
+- TailwindCSS v4
 - Prettier
-- TailwindCSS
+- Prettier Astro plugin
 - Prettier TailwindCSS plugin
+- Astro i18n (Internationalization support)
 
 Preferably use Visual Studio Code or any fork of it. And add the next extensions:
 
-- Astro
-- Tailwind CSS Intellisense (check the next link for more info: https://tailwindcss.com/docs/editor-setup)
-- Prettier - Code formatter
+- [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## How to run the project
 
 - Install dependencies
 
   ```bash
-  npm install
+  bun install
   ```
 
-- Run the project
+- Run the project (Development)
 
   ```bash
-  npm run dev
+  bun dev
   ```
 
 - Build the project
+
   ```bash
-  npm run build
+  bun run build
+  ```
+
+- Preview the production build
+
+  ```bash
+  bun run preview
   ```
 
 ## License

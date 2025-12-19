@@ -1,0 +1,34 @@
+---
+/**
+ * Logo component
+ * Handles light/dark theme logo switching based on dark mode class
+ * Responsive sizing: 40px height on mobile, 48px on desktop
+ */
+
+interface Props {
+  href?: string;
+}
+
+const { href = "#" } = Astro.props;
+
+// Standard logo dimensions maintaining 2.4:1 aspect ratio
+// Mobile: 96px × 40px
+// Desktop: 115px × 48px
+---
+
+<a href={href} class="flex-shrink-0">
+  <img
+    src="/logo-dark.svg"
+    alt="Logo"
+    width={115}
+    height={48}
+    class="hidden h-10 w-auto dark:block md:h-12"
+  />
+  <img
+    src="/logo.svg"
+    alt="Logo"
+    width={115}
+    height={48}
+    class="block h-10 w-auto dark:hidden md:h-12"
+  />
+</a>

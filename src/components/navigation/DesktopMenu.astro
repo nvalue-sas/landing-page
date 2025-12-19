@@ -1,0 +1,18 @@
+---
+import { navItems } from "./navItems";
+import CTAButton from "./CTAButton.astro";
+---
+
+<div class="hidden items-center space-x-8 md:flex">
+  {
+    navItems.map((item) => (
+      <a
+        href={item.href}
+        class="text-base font-medium text-secondary-700 transition-colors hover:text-primary-600 dark:text-white dark:hover:text-primary-300"
+      >
+        {item.name}
+      </a>
+    ))
+  }
+  <CTAButton variant="desktop" />
+</div>

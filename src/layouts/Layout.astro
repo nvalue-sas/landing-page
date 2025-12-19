@@ -1,6 +1,4 @@
 ---
-import "@/styles/global.css";
-
 interface Props {
   title: string;
   description?: string;
@@ -53,7 +51,7 @@ const { title, description = "nValue: You dream it, we code it." } =
     />
     <link rel="icon" type="icon" href="/favicon.ico" />
   </head>
-  <body class="bg-gray-50 font-sans antialiased dark:bg-gray-950">
+  <body class="bg-gray-50 font-sans antialiased dark:bg-black">
     <slot />
   </body>
 </html>
