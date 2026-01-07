@@ -16,19 +16,19 @@ const { href = "#" } = Astro.props;
 // Desktop: 115px × 48px
 ---
 
-<a href={href} class="flex-shrink-0">
+<a href={href} class="shrink-0">
   <img
     src="/logo-dark.svg"
     alt="Logo"
     width={115}
     height={48}
-    class="hidden h-10 w-auto dark:block md:h-12"
+    class="hidden h-10 w-auto md:h-12 dark:block"
   />
   <img
     src="/logo.svg"
     alt="Logo"
     width={115}
     height={48}
-    class="block h-10 w-auto dark:hidden md:h-12"
+    class="block h-10 w-auto md:h-12 dark:hidden"
   />
 </a>

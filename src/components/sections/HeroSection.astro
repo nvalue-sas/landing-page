@@ -1,5 +1,5 @@
 ---
-import { Sparkles } from "@lucide/astro";
+import { Sparkles, ArrowRight, Code } from "@lucide/astro";
 ---
 
 <section
@@ -50,7 +50,7 @@ import { Sparkles } from "@lucide/astro";
 
     <!-- Subtitle -->
     <p
-      class="mx-auto mt-8 max-w-3xl text-center text-xl leading-relaxed text-pretty text-secondary-400 md:mt-12 md:text-2xl dark:text-secondary-100"
+      class="mx-auto my-8 max-w-3xl text-center text-xl leading-relaxed text-pretty text-secondary-400 md:mt-12 md:text-2xl dark:text-secondary-100"
     >
       Transformamos tus ideas en productos de software de clase mundial.
       Desarrollo a la medida con tecnología de vanguardia.
@@ -58,18 +58,29 @@ import { Sparkles } from "@lucide/astro";
 
     <!-- CTA Buttons -->
     <div
-      class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4 md:mt-12"
+      class="flex flex-col items-center justify-center gap-4 pt-4 sm:flex-row"
     >
       <button
-        type="button"
-        class="w-full max-w-xs rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-gradient-to-bl focus:ring-4 focus:ring-cyan-300 focus:outline-none sm:w-auto sm:px-8 sm:py-3.5 sm:text-base dark:focus:ring-cyan-800"
-        >Empezar tu proyecto</button
+        class="group relative overflow-hidden rounded-xl bg-linear-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-cyan-500/40 active:scale-[0.98]"
       >
-      <a
-        href="#contact"
-        class="w-full max-w-xs rounded-lg px-6 py-3 text-center text-sm font-medium text-primary-600 transition-all hover:bg-primary-400/10 sm:w-auto sm:px-8 sm:py-3.5 sm:text-base dark:bg-primary-400/10 dark:text-secondary-100"
-        >Ver nuestro trabajo</a
+        <span class="relative z-10 flex items-center gap-2">
+          <Sparkles
+            class="h-5 w-5 transition-transform group-hover:rotate-12"
+          />
+          Iniciar Proyecto con IA
+          <ArrowRight
+            class="h-5 w-5 transition-transform group-hover:translate-x-1"
+          />
+        </span>
+      </button>
+      <button
+        class="rounded-xl border-gray-700 bg-transparent px-8 py-4 text-cyan-600 transition-all hover:scale-[1.02] hover:bg-cyan-500/10 dark:text-secondary-100 dark:hover:border-cyan-400 dark:hover:text-cyan-400"
       >
+        <span class="relative z-10 flex items-center gap-2">
+          <Code class="h-5 w-5" />
+          Ver Nuestro Trabajo
+        </span>
+      </button>
     </div>
   </div>
 </section>

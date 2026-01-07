@@ -2,7 +2,6 @@
 import DesktopMenu from "./DesktopMenu.astro";
 import MobileMenu from "./MobileMenu.astro";
 import ThemeToggle from "./ThemeToggle.astro";
-import CTAButton from "./CTAButton.astro";
 import Logo from "./Logo.astro";
 import { navItems } from "./navItems";
 ---
@@ -20,16 +19,14 @@ import { navItems } from "./navItems";
         <!-- Logo -->
         <Logo />
 
-        <!-- Desktop Menu -->
-        <DesktopMenu />
+        <!-- Desktop Menu and Theme Toggle (right side) -->
+        <div class="hidden items-center gap-8 md:flex">
+          <DesktopMenu />
+          <ThemeToggle />
+        </div>
 
         <!-- Mobile Menu Button -->
         <MobileMenu />
-
-        <!-- Desktop Theme Toggle (hidden on mobile) -->
-        <div class="hidden md:block">
-          <ThemeToggle />
-        </div>
       </nav>
     </div>
 
@@ -53,7 +50,6 @@ import { navItems } from "./navItems";
       >
         <!-- Theme Toggle -->
         <ThemeToggle />
-        <CTAButton variant="mobile" />
       </div>
     </div>
   </div>
