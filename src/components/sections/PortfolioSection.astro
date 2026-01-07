@@ -1,18 +1,76 @@
-<section id="portfolio" class="py-10">
-  <div
-    class="dark:text-secondary-200 container mx-auto max-w-7xl px-6 py-10 text-slate-700"
-  >
-    <div class="flex justify-between">
-      <div class="w-1/2">
-        <h1
-          class="font-title text-start text-[clamp(1.5rem,3.5vw,4rem)] leading-[1.1] [word-break:auto-phrase]"
+---
+import DashboardMockup from "./DashboardMockup.astro";
+import { BriefcaseBusiness, MoveRight, ChevronRight } from "@lucide/astro";
+---
+
+<section id="portfolio" class="py-16 lg:py-24">
+  <div class="container mx-auto max-w-7xl px-6">
+    <div
+      class="flex flex-col items-center gap-12 lg:flex-row lg:items-center lg:justify-between lg:gap-16"
+    >
+      <!-- Left Side: Text Content -->
+      <div class="w-full text-center lg:w-1/2 lg:text-left">
+        <!-- Badge/Label -->
+        <div
+          class="mb-6 inline-flex items-center gap-2 rounded-full border border-teal-500/30 bg-teal-500/5 px-4 py-2 shadow-lg shadow-teal-500/10 backdrop-blur-sm"
         >
-          <div class="font-thin [&:first-line]:font-black">
-            Nuestros Proyectos <br />Demuestran nuestra experiencia
-          </div>
-        </h1>
+          <BriefcaseBusiness class="h-4 w-4 text-teal-600 dark:text-teal-400" />
+          <span class="text-sm font-medium text-teal-600 dark:text-teal-300"
+            >Portafolio</span
+          >
+        </div>
+
+        <!-- Main Title -->
+        <h2
+          class="font-title mb-6 text-4xl leading-tight tracking-tight sm:text-5xl lg:text-6xl"
+        >
+          <span class="font-bold text-secondary-900 dark:text-secondary-100"
+            >Nuestros Proyectos</span
+          >
+          <br />
+          <span class="font-light text-secondary-700 dark:text-secondary-200"
+            >Demuestran nuestra experiencia</span
+          >
+        </h2>
+
+        <!-- Description Paragraph -->
+        <p
+          class="mb-8 text-lg leading-relaxed text-secondary-400 sm:text-xl dark:text-secondary-100"
+        >
+          Soluciones digitales que impulsan el crecimiento. Desde aplicaciones
+          web hasta dashboards analíticos, transformamos ideas en productos
+          funcionales y escalables.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div
+          class="flex flex-col items-center gap-4 sm:flex-row lg:justify-start"
+        >
+          <a
+            href="#"
+            class="group inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-teal-600 to-emerald-600 px-8 py-4 font-semibold text-white shadow-lg shadow-teal-500/25 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-teal-500/40 active:scale-[0.98]"
+          >
+            <span>Ver Proyectos</span>
+            <MoveRight
+              class="h-5 w-5 transition-transform group-hover:translate-x-1"
+            />
+          </a>
+          <a
+            href="#contact"
+            class="inline-flex items-center gap-2 rounded-xl border border-transparent bg-transparent px-8 py-4 text-teal-600 transition-all hover:scale-[1.02] hover:bg-teal-500/10 dark:text-teal-400 dark:hover:border-teal-400/50"
+          >
+            <span>Contactar</span>
+            <ChevronRight
+              class="h-5 w-5 transition-transform group-hover:translate-x-1"
+            />
+          </a>
+        </div>
       </div>
-      <div class="w-1/2">Parte 2</div>
+
+      <!-- Right Side: Dashboard Mockup -->
+      <div class="w-full lg:w-1/2">
+        <DashboardMockup />
+      </div>
     </div>
   </div>
 </section>

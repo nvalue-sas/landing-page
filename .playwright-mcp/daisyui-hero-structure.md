@@ -1,0 +1,2796 @@
+### Page state
+- Page URL: https://daisyui.com/
+- Page Title: Tailwind CSS Component Library ⸺ daisyUI
+- Page Snapshot:
+```yaml
+- generic [ref=e3]:
+  - checkbox "Open menu Close menu"
+  - generic [ref=e4]:
+    - link "BLUEPRINT The Official daisyUI Code Generator MCP Server" [ref=e6] [cursor=pointer]:
+      - /url: /blueprint/
+      - generic [ref=e7]:
+        - generic [ref=e13]: BLUEPRINT
+        - text: The Official daisyUI Code Generator
+        - img [ref=e14]
+        - text: MCP Server
+    - navigation [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - text: Menu
+          - generic "Open menu" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+        - generic [ref=e25]:
+          - link "daisyUI" [ref=e26] [cursor=pointer]:
+            - /url: /
+            - img "daisyUI logo" [ref=e27]:
+              - img "daisyUI logomark" [ref=e28]
+              - img "daisyUI logotype" [ref=e72]
+          - button "5.5.14" [ref=e81] [cursor=pointer]:
+            - text: 5.5.14
+            - img [ref=e82]
+        - button "Search… ⌘ K" [ref=e85] [cursor=pointer]:
+          - generic [ref=e86]: Search…
+          - generic [ref=e87]:
+            - generic [ref=e88]: ⌘
+            - text: K
+      - generic [ref=e89]:
+        - link "Components" [ref=e91] [cursor=pointer]:
+          - /url: /components/
+          - img [ref=e92]
+          - text: Components
+        - link "Templates" [ref=e97] [cursor=pointer]:
+          - /url: /store/
+          - img [ref=e98]
+          - text: Templates
+        - link "Figma" [ref=e102] [cursor=pointer]:
+          - /url: /store/daisyui-figma-library/
+          - img [ref=e103]
+          - text: Figma
+        - link "MCP" [ref=e111] [cursor=pointer]:
+          - /url: /blueprint/
+          - img [ref=e112]
+          - text: MCP
+        - generic "Change Theme" [ref=e116]:
+          - button "Change Theme" [ref=e117] [cursor=pointer]:
+            - img [ref=e123]
+        - button "Language" [ref=e126] [cursor=pointer]:
+          - img [ref=e127]
+          - img [ref=e129]
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e136]:
+              - generic [ref=e138]:
+                - text: copy
+                - button "npm i -D daisyui@latest" [ref=e139]:
+                  - code [ref=e141]: npm i -D daisyui@latest
+              - heading "Faster, cleaner, easier Tailwind CSS development" [level=1] [ref=e143]:
+                - generic [ref=e144]:
+                  - text: Faster, cleaner, easier
+                  - text: Tailwind CSS development
+              - paragraph [ref=e146]:
+                - text: daisyUI is the Tailwind CSS plugin you will love!
+                - text: It provides useful component class names
+                - text: to help you write less code and build faster.
+              - generic [ref=e149]:
+                - link "See components" [ref=e150] [cursor=pointer]:
+                  - /url: /components/
+                  - generic [ref=e151]: See components
+                - generic [ref=e152]:
+                  - link "How to use?" [ref=e153] [cursor=pointer]:
+                    - /url: /docs/install/
+                    - text: How to use?
+                    - img [ref=e154]
+                  - generic [ref=e157]:
+                    - generic [ref=e158]:
+                      - img [ref=e159]
+                      - text: Trending on GitHub with 40,000 stars
+                    - generic [ref=e161]:
+                      - img [ref=e162]
+                      - text: 336,000 NPM downloads per week
+                    - generic [ref=e164]:
+                      - img [ref=e165]
+                      - text: Powering 429,000 open source projects
+            - generic [ref=e169]:
+              - heading "don't re-invent the wheel every time yawing face emoji" [level=2] [ref=e170]:
+                - text: don't re-invent
+                - text: the wheel
+                - text: every time
+                - img "yawing face emoji"
+              - paragraph [ref=e171]: In a Tailwind CSS project, you need to write utility class names for every element. Thousands of class names just to style the most basic elements.
+              - generic [ref=e174]:
+                - heading "instead of writing 100 class names" [level=2] [ref=e175]:
+                  - text: instead of writing
+                  - generic [ref=e176]: 100 class names
+                - paragraph [ref=e178]:
+                  - text: For every element, every page, every project,
+                  - text: again and again…
+              - generic [ref=e181]:
+                - heading "use semantic class names sunglasses emoji" [level=2] [ref=e182]:
+                  - text: use
+                  - generic [ref=e183]:
+                    - text: semantic
+                    - text: class names
+                  - img "sunglasses emoji"
+                - paragraph [ref=e185]: It's descriptive, faster, cleaner and easier to maintain.
+          - generic [ref=e2448]:
+            - generic [ref=e2450]:
+              - generic [ref=e2451]:
+                - generic [ref=e2452]:
+                  - generic [ref=e2453]:
+                    - button "Features" [ref=e2454] [cursor=pointer]
+                    - button "Links" [ref=e2455] [cursor=pointer]
+                    - button "Message" [ref=e2456] [cursor=pointer]
+                  - generic [ref=e2458]:
+                    - group [ref=e2459]:
+                      - generic [ref=e2460] [cursor=pointer]:
+                        - text: Faster development
+                        - checkbox "Faster development" [checked] [ref=e2461]
+                    - group [ref=e2462]:
+                      - generic [ref=e2463] [cursor=pointer]:
+                        - text: Cleaner HTML
+                        - checkbox "Cleaner HTML" [checked] [ref=e2464]
+                    - group [ref=e2465]:
+                      - generic [ref=e2466] [cursor=pointer]:
+                        - text: Customizable
+                        - checkbox "Customizable" [checked] [ref=e2467]
+                    - group [ref=e2468]:
+                      - generic [ref=e2469] [cursor=pointer]:
+                        - text: Themeable
+                        - checkbox "Themeable" [checked] [ref=e2470]
+                    - group [ref=e2471]:
+                      - generic [ref=e2472] [cursor=pointer]:
+                        - text: Pure CSS
+                        - checkbox "Pure CSS" [checked] [ref=e2473]
+                - generic [ref=e2474]:
+                  - generic [ref=e2475]:
+                    - img [ref=e2476]
+                    - generic [ref=e2478]:
+                      - text: Pure CSS.
+                      - text: No JS dependency
+                  - generic [ref=e2480]:
+                    - img [ref=e2481]
+                    - generic [ref=e2483]: Works on all frameworks
+              - generic [ref=e2484]:
+                - generic [ref=e2486]:
+                  - heading "Design system" [level=2] [ref=e2487]
+                  - generic [ref=e2488]:
+                    - generic [ref=e2489] [cursor=pointer]:
+                      - checkbox "xs" [checked] [ref=e2490]
+                      - generic [ref=e2491]: xs
+                    - generic [ref=e2492] [cursor=pointer]:
+                      - checkbox "sm" [checked] [ref=e2493]
+                      - generic [ref=e2494]: sm
+                    - generic [ref=e2495] [cursor=pointer]:
+                      - checkbox "md" [checked] [ref=e2496]
+                      - generic [ref=e2497]: md
+                    - generic [ref=e2498] [cursor=pointer]:
+                      - checkbox "lg" [checked] [ref=e2499]
+                      - generic [ref=e2500]: lg
+                    - generic [ref=e2501] [cursor=pointer]:
+                      - checkbox "xl" [checked] [ref=e2502]
+                      - generic [ref=e2503]: xl
+                  - generic [ref=e2504]:
+                    - generic [ref=e2505] [cursor=pointer]:
+                      - radio "xs" [ref=e2506]
+                      - generic [ref=e2507]: xs
+                    - generic [ref=e2508] [cursor=pointer]:
+                      - radio "sm" [ref=e2509]
+                      - generic [ref=e2510]: sm
+                    - generic [ref=e2511] [cursor=pointer]:
+                      - radio "md" [ref=e2512]
+                      - generic [ref=e2513]: md
+                    - generic [ref=e2514] [cursor=pointer]:
+                      - radio "lg" [ref=e2515]
+                      - generic [ref=e2516]: lg
+                    - generic [ref=e2517] [cursor=pointer]:
+                      - radio "xl" [ref=e2518]
+                      - generic [ref=e2519]: xl
+                - generic [ref=e2521]:
+                  - heading "Semantic colors" [level=2] [ref=e2522]
+                  - generic [ref=e2523]:
+                    - generic [ref=e2526]: primary
+                    - generic [ref=e2529]: secondary
+                    - generic [ref=e2532]: accent
+                    - generic [ref=e2535]: neutral
+                    - generic [ref=e2538]: info
+                    - generic [ref=e2541]: success
+                    - generic [ref=e2544]: warning
+                    - generic [ref=e2547]: error
+            - generic [ref=e2548]:
+              - code [ref=e2550]: // Styling a simple button <button class=""> Tailwind Button </button>
+              - generic [ref=e2551]:
+                - generic [ref=e2552]: "// Result:"
+                - button "Tailwind Button" [ref=e2553]
+        - generic [ref=e2556]:
+          - generic [ref=e2557]:
+            - link "ads via Carbon" [ref=e2558] [cursor=pointer]:
+              - /url: https://srv.carbonads.net/ads/click/x/GTND427NCAAD6K3ECE7LYKQUCYSICKJICTYDCZ3JCASD5KQYCASDVKQKC6BDLK3NCWSI62QJCWSIE53MCVAD5K3JHEYI52JUCAAIEK3ECTNCYBZ52K
+              - img "ads via Carbon" [ref=e2559]
+            - link "Deliver video globally with free encoding & a 200 Tbps+ network. Start free" [ref=e2560] [cursor=pointer]:
+              - /url: https://srv.carbonads.net/ads/click/x/GTND427NCAAD6K3ECE7LYKQUCYSICKJICTYDCZ3JCASD5KQYCASDVKQKC6BDLK3NCWSI62QJCWSIE53MCVAD5K3JHEYI52JUCAAIEK3ECTNCYBZ52K
+          - link "ads via Carbon" [ref=e2561] [cursor=pointer]:
+            - /url: http://carbonads.net/?utm_source=daisyuicom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+      - generic [ref=e189]:
+        - paragraph [ref=e190]: Used by engineers at
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - text: Used for Chameleon and SAM 2
+            - img [ref=e195]
+            - generic [ref=e200]: Meta Research
+          - generic [ref=e201]:
+            - text: Used for Alibaba Arthas
+            - img [ref=e203]
+            - generic [ref=e205]: Alibaba
+          - generic [ref=e206]:
+            - text: Used for Amazon IVS and aws-samples
+            - img [ref=e208]
+            - generic [ref=e211]: Amazon
+          - generic [ref=e212]:
+            - text: Used for Adobe Nala sites
+            - img [ref=e214]
+            - generic [ref=e216]: Adobe
+          - generic [ref=e217]:
+            - text: Used for RAD Lab
+            - img [ref=e219]
+            - generic [ref=e226]: Google Cloud
+      - generic [ref=e228]:
+        - heading "Take Tailwind CSS to the next level" [level=2] [ref=e229]:
+          - text: Take Tailwind CSS
+          - text: to the next level
+        - paragraph [ref=e230]:
+          - text: daisyUI adds class names to Tailwind CSS
+          - text: for all common UI components.
+          - text: Class names like
+          - link "btn" [ref=e231] [cursor=pointer]:
+            - /url: /components/button/
+          - text: ","
+          - link "card" [ref=e232] [cursor=pointer]:
+            - /url: /components/card/
+          - text: ","
+          - link "toggle" [ref=e233] [cursor=pointer]:
+            - /url: /components/toggle/
+          - text: and many more.
+        - paragraph [ref=e235]:
+          - text: This allows us to focus on important things
+          - text: instead of styling basic elements for every project.
+        - link "See All Components" [ref=e238] [cursor=pointer]:
+          - /url: /components/
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - heading "No more ugly HTML" [level=2] [ref=e244]
+          - paragraph [ref=e245]:
+            - text: Write fewer class names
+            - text: Use component class names
+            - text: modify them using Tailwind CSS utilities.
+          - generic [ref=e247]:
+            - generic [ref=e248]: Click
+            - img [ref=e249]
+          - generic [ref=e252] [cursor=pointer]:
+            - text: Tailwind only
+            - checkbox "Tailwind only Tailwind + daisyUI" [ref=e254]
+            - text: Tailwind + daisyUI
+        - generic [ref=e255]:
+          - code [ref=e258]: <div class="w-80 rounded-lg bg-zinc-50 text-zinc-800"> <div class="flex flex-col gap-3 p-8"> <input placeholder="Email" class="w-full rounded-sm border border-zinc-300 bg-white px-3 py-2 text-sm focus:ring-2 focus:ring-zinc-700 focus:ring-offset-2 focus:ring-offset-zinc-100 focus:outline-none focus-visible:border-zinc-900"/> <label class="flex cursor-pointer items-center text-sm gap-1.5 text-zinc-500"> <div class="relative inline-block h-5"> <input type="checkbox" class="peer h-5 w-8 cursor-pointer appearance-none rounded-full border border-zinc-400 peer-checked:bg-white checked:border-zinc-900 focus-visible:ring-2 focus-visible:ring-zinc-400 checked:focus-visible:ring-zinc-900 focus-visible:ring-offset-2 focus-visible:outline-none"/> <span class="pointer-events-none absolute start-0.75 top-0.75 block size-[0.875rem] rounded-full bg-zinc-400 transition-all duration-200 peer-checked:start-[0.9375rem] peer-checked:bg-zinc-900"></span> </div> Submit to newsletter </label> <label class="flex cursor-pointer items-center text-sm gap-1.5 text-zinc-500"> <div class="relative inline-block h-5"> <input type="checkbox" class="peer h-5 w-8 cursor-pointer appearance-none rounded-full border border-zinc-400 peer-checked:bg-white checked:border-zinc-900 focus-visible:ring-2 focus-visible:ring-zinc-400 checked:focus-visible:ring-zinc-900 focus-visible:ring-offset-2 focus-visible:outline-none"/> <span class="pointer-events-none absolute start-0.75 top-0.75 block size-[0.875rem] rounded-full bg-zinc-400 transition-all duration-200 peer-checked:start-[0.9375rem] peer-checked:bg-zinc-900"></span> </div> Accept terms of use </label> <button class="inline-block cursor-pointer rounded-sm bg-zinc-900 px-4 py-2.5 text-center text-sm font-semibold text-white shadow-[0_.2rem_0.3rem_-.25rem_black] active:shadow-none transition duration-200 ease-in-out focus-visible:ring-2 focus-visible:ring-zinc-700 focus-visible:ring-offset-2 focus-visible:outline-none active:translate-y-[1px]" >Save</button> </div> </div>
+          - generic [ref=e259]: =
+          - generic [ref=e262]:
+            - textbox "Email" [ref=e263]
+            - generic [ref=e264] [cursor=pointer]:
+              - checkbox "Submit to newsletter" [ref=e266]
+              - text: Submit to newsletter
+            - generic [ref=e267] [cursor=pointer]:
+              - checkbox "Accept terms of use" [ref=e269]
+              - text: Accept terms of use
+            - button "Save" [ref=e270] [cursor=pointer]
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - heading "Fewer class names Faster development Smaller file size" [level=2] [ref=e275]:
+            - text: Fewer class names
+            - text: Faster development
+            - text: Smaller file size
+          - paragraph [ref=e277]:
+            - text: With daisyUI, you write 88% fewer class names
+            - text: And your HTML size will be about 79% smaller.
+          - link "Get started" [ref=e280] [cursor=pointer]:
+            - /url: /docs/install/
+            - text: Get started
+            - img [ref=e281]
+        - generic [ref=e283]:
+          - generic [ref=e285]:
+            - heading "CSS Class names" [level=3] [ref=e286]
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - generic [ref=e289]: Tailwind only
+                - generic [ref=e290]: "114"
+              - progressbar [ref=e291]
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - generic [ref=e294]: Tailwind + daisyUI
+                - generic [ref=e295]: "14"
+              - progressbar [ref=e296]
+            - generic [ref=e297]:
+              - img [ref=e298]
+              - text: 88% fewer class names
+          - generic [ref=e302]:
+            - heading "HTML size" [level=3] [ref=e303]
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - generic [ref=e306]: Tailwind only
+                - generic [ref=e307]: 2110 byte
+              - progressbar [ref=e308]
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - generic [ref=e311]: Tailwind + daisyUI
+                - generic [ref=e312]: 427 byte
+              - progressbar [ref=e313]
+            - generic [ref=e314]:
+              - img [ref=e315]
+              - text: 79% smaller DOM size
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - heading "Highly customizable Powered by Tailwind CSS utility classes" [level=2] [ref=e321]:
+            - generic [ref=e322]: Highly customizable
+            - generic [ref=e323]: Powered by Tailwind CSS utility classes
+          - paragraph [ref=e325]: daisyUI is built on top of Tailwind CSS so you can customize everything using utility classes.
+          - link "How to customize" [ref=e328] [cursor=pointer]:
+            - /url: /docs/customize/
+            - text: How to customize
+            - img [ref=e329]
+        - generic [ref=e331]:
+          - code [ref=e334]: <a class="btn btn-primary">Button</a>
+          - generic [ref=e335]: ↓
+          - code [ref=e338]: <a class="btn btn-primary rounded-full">Button</a>
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - heading "Pure CSS. Framework agnostic. Works everywhere." [level=2] [ref=e342]:
+            - text: Pure CSS.
+            - text: Framework agnostic.
+            - text: Works everywhere.
+          - paragraph [ref=e344]: daisyUI is a plugin for Tailwind CSS. It works on all JS frameworks and doesn't need a JS bundle file.
+          - paragraph [ref=e345]: Install daisyUI as a dev dependency and use the class names just like any other Tailwind CSS class name.
+          - link "How to use?" [ref=e348] [cursor=pointer]:
+            - /url: /docs/install/
+            - text: How to use?
+            - img [ref=e349]
+        - generic:
+          - generic:
+            - img "daisyUI vue"
+            - img "daisyUI react"
+            - img "daisyUI svelte"
+            - img "daisyUI qwik"
+            - img "daisyUI laravel"
+            - img "daisyUI nextjs"
+            - img "daisyUI solidjs"
+            - img "daisyUI preact"
+            - img "daisyUI phoenix"
+            - img "daisyUI nuxtjs"
+            - img "daisyUI astro"
+            - img "daisyUI angular"
+            - img "daisyUI vite"
+            - img "daisyUI rails"
+      - generic [ref=e352]:
+        - generic [ref=e354]:
+          - generic [ref=e2562]:
+            - generic [ref=e2563]:
+              - list [ref=e2565]:
+                - listitem [ref=e2566]:
+                  - img [ref=e2567]
+                - listitem [ref=e2572]:
+                  - button "tailwindcss button" [ref=e2573]:
+                    - img [ref=e2574]
+                - listitem [ref=e2577]:
+                  - button "tailwindcss button" [ref=e2578]:
+                    - img [ref=e2579]
+                - listitem [ref=e2581]:
+                  - button "tailwindcss button" [ref=e2582]:
+                    - img [ref=e2583]
+                - listitem [ref=e2585]:
+                  - button "tailwindcss button" [ref=e2586]:
+                    - img [ref=e2587]
+                - listitem [ref=e2590]:
+                  - button "tailwindcss button" [ref=e2591]:
+                    - img [ref=e2592]
+              - list [ref=e2601]:
+                - listitem [ref=e2602]: Admin panel
+                - listitem [ref=e2603]:
+                  - button "Dashboard" [ref=e2604]:
+                    - img [ref=e2605]
+                    - text: Dashboard
+                - listitem [ref=e2608]:
+                  - button "tailwindcss button" [ref=e2609]:
+                    - img [ref=e2610]
+                    - text: Notifications
+                - listitem [ref=e2612]:
+                  - button "tailwindcss button" [ref=e2613]:
+                    - img [ref=e2614]
+                    - text: Messages
+                - listitem [ref=e2616]:
+                  - button "tailwindcss button" [ref=e2617]:
+                    - img [ref=e2618]
+                    - text: People
+                - listitem [ref=e2621]:
+                  - button "tailwindcss button" [ref=e2622]:
+                    - img [ref=e2623]
+                    - text: Products
+                    - generic [ref=e2631]: "50"
+            - generic [ref=e2632]:
+              - button [ref=e2633] [cursor=pointer]: Neutral
+              - button [ref=e2634] [cursor=pointer]: Primary
+              - button [ref=e2635] [cursor=pointer]: Secondary
+              - button [ref=e2636] [cursor=pointer]: Accent
+              - button [ref=e2637] [cursor=pointer]: Info
+              - button [ref=e2638] [cursor=pointer]: Success
+              - button [ref=e2639] [cursor=pointer]: Warning
+              - button [ref=e2640] [cursor=pointer]: Error
+          - generic [ref=e355]:
+            - generic [ref=e2641]:
+              - button "tailwindcss avatar" [ref=e2643] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e2645]
+              - list [ref=e2646]:
+                - listitem [ref=e2647]:
+                  - button "Inbox 99+" [ref=e2648]:
+                    - img [ref=e2649]
+                    - text: Inbox
+                    - generic [ref=e2651]: 99+
+                - listitem [ref=e2652]:
+                  - button "Updates NEW" [ref=e2653]:
+                    - text: Updates
+                    - generic [ref=e2654]: NEW
+                - listitem [ref=e2655]:
+                  - button "Stats" [ref=e2656]: Stats
+            - generic [ref=e356]:
+              - generic [ref=e357]: Unlimited themes
+              - paragraph [ref=e358]: with zero effort
+              - paragraph [ref=e360]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e363] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e2660]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e2662]:
+            - generic [ref=e2663]: Semantic colors
+            - generic [ref=e2664]:
+              - generic [ref=e2667]: primary
+              - generic [ref=e2670]: secondary
+              - generic [ref=e2673]: accent
+              - generic [ref=e2676]: neutral
+              - generic [ref=e2679]: primary content
+              - generic [ref=e2682]: secondary content
+              - generic [ref=e2685]: accent content
+              - generic [ref=e2688]: neutral content
+              - generic [ref=e2691]: base 100
+              - generic [ref=e2694]: base 200
+              - generic [ref=e2697]: base 300
+              - generic [ref=e2700]: base content
+              - generic [ref=e2703]: info
+              - generic [ref=e2706]: success
+              - generic [ref=e2709]: warning
+              - generic [ref=e2712]: error
+              - generic [ref=e2715]: info content
+              - generic [ref=e2718]: success content
+              - generic [ref=e2721]: warning content
+              - generic [ref=e2724]: error content
+            - link "Learn more about colors" [ref=e2726] [cursor=pointer]:
+              - /url: /docs/colors/
+        - generic [ref=e365]:
+          - generic [ref=e2727]:
+            - generic [ref=e2728]:
+              - list [ref=e2730]:
+                - listitem [ref=e2731]:
+                  - img [ref=e2732]
+                - listitem [ref=e2737]:
+                  - button "tailwindcss button" [ref=e2738]:
+                    - img [ref=e2739]
+                - listitem [ref=e2742]:
+                  - button "tailwindcss button" [ref=e2743]:
+                    - img [ref=e2744]
+                - listitem [ref=e2746]:
+                  - button "tailwindcss button" [ref=e2747]:
+                    - img [ref=e2748]
+                - listitem [ref=e2750]:
+                  - button "tailwindcss button" [ref=e2751]:
+                    - img [ref=e2752]
+                - listitem [ref=e2755]:
+                  - button "tailwindcss button" [ref=e2756]:
+                    - img [ref=e2757]
+              - list [ref=e2766]:
+                - listitem [ref=e2767]: Admin panel
+                - listitem [ref=e2768]:
+                  - button "Dashboard" [ref=e2769]:
+                    - img [ref=e2770]
+                    - text: Dashboard
+                - listitem [ref=e2773]:
+                  - button "tailwindcss button" [ref=e2774]:
+                    - img [ref=e2775]
+                    - text: Notifications
+                - listitem [ref=e2777]:
+                  - button "tailwindcss button" [ref=e2778]:
+                    - img [ref=e2779]
+                    - text: Messages
+                - listitem [ref=e2781]:
+                  - button "tailwindcss button" [ref=e2782]:
+                    - img [ref=e2783]
+                    - text: People
+                - listitem [ref=e2786]:
+                  - button "tailwindcss button" [ref=e2787]:
+                    - img [ref=e2788]
+                    - text: Products
+                    - generic [ref=e2796]: "50"
+            - generic [ref=e2797]:
+              - button [ref=e2798] [cursor=pointer]: Neutral
+              - button [ref=e2799] [cursor=pointer]: Primary
+              - button [ref=e2800] [cursor=pointer]: Secondary
+              - button [ref=e2801] [cursor=pointer]: Accent
+              - button [ref=e2802] [cursor=pointer]: Info
+              - button [ref=e2803] [cursor=pointer]: Success
+              - button [ref=e2804] [cursor=pointer]: Warning
+              - button [ref=e2805] [cursor=pointer]: Error
+          - generic [ref=e366]:
+            - generic [ref=e2806]:
+              - button "tailwindcss avatar" [ref=e2808] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e2810]
+              - list [ref=e2811]:
+                - listitem [ref=e2812]:
+                  - button "Inbox 99+" [ref=e2813]:
+                    - img [ref=e2814]
+                    - text: Inbox
+                    - generic [ref=e2816]: 99+
+                - listitem [ref=e2817]:
+                  - button "Updates NEW" [ref=e2818]:
+                    - text: Updates
+                    - generic [ref=e2819]: NEW
+                - listitem [ref=e2820]:
+                  - button "Stats" [ref=e2821]: Stats
+            - generic [ref=e367]:
+              - generic [ref=e368]: Unlimited themes
+              - paragraph [ref=e369]: with zero effort
+              - paragraph [ref=e371]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e374] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e2825]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e2827]:
+            - generic [ref=e2828]: Semantic colors
+            - generic [ref=e2829]:
+              - generic [ref=e2832]: primary
+              - generic [ref=e2835]: secondary
+              - generic [ref=e2838]: accent
+              - generic [ref=e2841]: neutral
+              - generic [ref=e2844]: primary content
+              - generic [ref=e2847]: secondary content
+              - generic [ref=e2850]: accent content
+              - generic [ref=e2853]: neutral content
+              - generic [ref=e2856]: base 100
+              - generic [ref=e2859]: base 200
+              - generic [ref=e2862]: base 300
+              - generic [ref=e2865]: base content
+              - generic [ref=e2868]: info
+              - generic [ref=e2871]: success
+              - generic [ref=e2874]: warning
+              - generic [ref=e2877]: error
+              - generic [ref=e2880]: info content
+              - generic [ref=e2883]: success content
+              - generic [ref=e2886]: warning content
+              - generic [ref=e2889]: error content
+            - link "Learn more about colors" [ref=e2891] [cursor=pointer]:
+              - /url: /docs/colors/
+        - generic [ref=e376]:
+          - generic [ref=e2892]:
+            - generic [ref=e2893]:
+              - list [ref=e2895]:
+                - listitem [ref=e2896]:
+                  - img [ref=e2897]
+                - listitem [ref=e2902]:
+                  - button "tailwindcss button" [ref=e2903]:
+                    - img [ref=e2904]
+                - listitem [ref=e2907]:
+                  - button "tailwindcss button" [ref=e2908]:
+                    - img [ref=e2909]
+                - listitem [ref=e2911]:
+                  - button "tailwindcss button" [ref=e2912]:
+                    - img [ref=e2913]
+                - listitem [ref=e2915]:
+                  - button "tailwindcss button" [ref=e2916]:
+                    - img [ref=e2917]
+                - listitem [ref=e2920]:
+                  - button "tailwindcss button" [ref=e2921]:
+                    - img [ref=e2922]
+              - list [ref=e2931]:
+                - listitem [ref=e2932]: Admin panel
+                - listitem [ref=e2933]:
+                  - button "Dashboard" [ref=e2934]:
+                    - img [ref=e2935]
+                    - text: Dashboard
+                - listitem [ref=e2938]:
+                  - button "tailwindcss button" [ref=e2939]:
+                    - img [ref=e2940]
+                    - text: Notifications
+                - listitem [ref=e2942]:
+                  - button "tailwindcss button" [ref=e2943]:
+                    - img [ref=e2944]
+                    - text: Messages
+                - listitem [ref=e2946]:
+                  - button "tailwindcss button" [ref=e2947]:
+                    - img [ref=e2948]
+                    - text: People
+                - listitem [ref=e2951]:
+                  - button "tailwindcss button" [ref=e2952]:
+                    - img [ref=e2953]
+                    - text: Products
+                    - generic [ref=e2961]: "50"
+            - generic [ref=e2962]:
+              - button [ref=e2963] [cursor=pointer]: Neutral
+              - button [ref=e2964] [cursor=pointer]: Primary
+              - button [ref=e2965] [cursor=pointer]: Secondary
+              - button [ref=e2966] [cursor=pointer]: Accent
+              - button [ref=e2967] [cursor=pointer]: Info
+              - button [ref=e2968] [cursor=pointer]: Success
+              - button [ref=e2969] [cursor=pointer]: Warning
+              - button [ref=e2970] [cursor=pointer]: Error
+          - generic [ref=e377]:
+            - generic [ref=e2971]:
+              - button "tailwindcss avatar" [ref=e2973] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e2975]
+              - list [ref=e2976]:
+                - listitem [ref=e2977]:
+                  - button "Inbox 99+" [ref=e2978]:
+                    - img [ref=e2979]
+                    - text: Inbox
+                    - generic [ref=e2981]: 99+
+                - listitem [ref=e2982]:
+                  - button "Updates NEW" [ref=e2983]:
+                    - text: Updates
+                    - generic [ref=e2984]: NEW
+                - listitem [ref=e2985]:
+                  - button "Stats" [ref=e2986]: Stats
+            - generic [ref=e378]:
+              - generic [ref=e379]: Unlimited themes
+              - paragraph [ref=e380]: with zero effort
+              - paragraph [ref=e382]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e385] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e2990]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e2992]:
+            - generic [ref=e2993]: Semantic colors
+            - generic [ref=e2994]:
+              - generic [ref=e2997]: primary
+              - generic [ref=e3000]: secondary
+              - generic [ref=e3003]: accent
+              - generic [ref=e3006]: neutral
+              - generic [ref=e3009]: primary content
+              - generic [ref=e3012]: secondary content
+              - generic [ref=e3015]: accent content
+              - generic [ref=e3018]: neutral content
+              - generic [ref=e3021]: base 100
+              - generic [ref=e3024]: base 200
+              - generic [ref=e3027]: base 300
+              - generic [ref=e3030]: base content
+              - generic [ref=e3033]: info
+              - generic [ref=e3036]: success
+              - generic [ref=e3039]: warning
+              - generic [ref=e3042]: error
+              - generic [ref=e3045]: info content
+              - generic [ref=e3048]: success content
+              - generic [ref=e3051]: warning content
+              - generic [ref=e3054]: error content
+            - link "Learn more about colors" [ref=e3056] [cursor=pointer]:
+              - /url: /docs/colors/
+        - generic [ref=e387]:
+          - generic [ref=e3057]:
+            - generic [ref=e3058]:
+              - list [ref=e3060]:
+                - listitem [ref=e3061]:
+                  - img [ref=e3062]
+                - listitem [ref=e3067]:
+                  - button "tailwindcss button" [ref=e3068]:
+                    - img [ref=e3069]
+                - listitem [ref=e3072]:
+                  - button "tailwindcss button" [ref=e3073]:
+                    - img [ref=e3074]
+                - listitem [ref=e3076]:
+                  - button "tailwindcss button" [ref=e3077]:
+                    - img [ref=e3078]
+                - listitem [ref=e3080]:
+                  - button "tailwindcss button" [ref=e3081]:
+                    - img [ref=e3082]
+                - listitem [ref=e3085]:
+                  - button "tailwindcss button" [ref=e3086]:
+                    - img [ref=e3087]
+              - list [ref=e3096]:
+                - listitem [ref=e3097]: Admin panel
+                - listitem [ref=e3098]:
+                  - button "Dashboard" [ref=e3099]:
+                    - img [ref=e3100]
+                    - text: Dashboard
+                - listitem [ref=e3103]:
+                  - button "tailwindcss button" [ref=e3104]:
+                    - img [ref=e3105]
+                    - text: Notifications
+                - listitem [ref=e3107]:
+                  - button "tailwindcss button" [ref=e3108]:
+                    - img [ref=e3109]
+                    - text: Messages
+                - listitem [ref=e3111]:
+                  - button "tailwindcss button" [ref=e3112]:
+                    - img [ref=e3113]
+                    - text: People
+                - listitem [ref=e3116]:
+                  - button "tailwindcss button" [ref=e3117]:
+                    - img [ref=e3118]
+                    - text: Products
+                    - generic [ref=e3126]: "50"
+            - generic [ref=e3127]:
+              - button [ref=e3128] [cursor=pointer]: Neutral
+              - button [ref=e3129] [cursor=pointer]: Primary
+              - button [ref=e3130] [cursor=pointer]: Secondary
+              - button [ref=e3131] [cursor=pointer]: Accent
+              - button [ref=e3132] [cursor=pointer]: Info
+              - button [ref=e3133] [cursor=pointer]: Success
+              - button [ref=e3134] [cursor=pointer]: Warning
+              - button [ref=e3135] [cursor=pointer]: Error
+          - generic [ref=e388]:
+            - generic [ref=e3136]:
+              - button "tailwindcss avatar" [ref=e3138] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e3140]
+              - list [ref=e3141]:
+                - listitem [ref=e3142]:
+                  - button "Inbox 99+" [ref=e3143]:
+                    - img [ref=e3144]
+                    - text: Inbox
+                    - generic [ref=e3146]: 99+
+                - listitem [ref=e3147]:
+                  - button "Updates NEW" [ref=e3148]:
+                    - text: Updates
+                    - generic [ref=e3149]: NEW
+                - listitem [ref=e3150]:
+                  - button "Stats" [ref=e3151]: Stats
+            - generic [ref=e389]:
+              - generic [ref=e390]: Unlimited themes
+              - paragraph [ref=e391]: with zero effort
+              - paragraph [ref=e393]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e396] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e3155]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e3157]:
+            - generic [ref=e3158]: Semantic colors
+            - generic [ref=e3159]:
+              - generic [ref=e3162]: primary
+              - generic [ref=e3165]: secondary
+              - generic [ref=e3168]: accent
+              - generic [ref=e3171]: neutral
+              - generic [ref=e3174]: primary content
+              - generic [ref=e3177]: secondary content
+              - generic [ref=e3180]: accent content
+              - generic [ref=e3183]: neutral content
+              - generic [ref=e3186]: base 100
+              - generic [ref=e3189]: base 200
+              - generic [ref=e3192]: base 300
+              - generic [ref=e3195]: base content
+              - generic [ref=e3198]: info
+              - generic [ref=e3201]: success
+              - generic [ref=e3204]: warning
+              - generic [ref=e3207]: error
+              - generic [ref=e3210]: info content
+              - generic [ref=e3213]: success content
+              - generic [ref=e3216]: warning content
+              - generic [ref=e3219]: error content
+            - link "Learn more about colors" [ref=e3221] [cursor=pointer]:
+              - /url: /docs/colors/
+        - generic [ref=e398]:
+          - generic [ref=e3222]:
+            - generic [ref=e3223]:
+              - list [ref=e3225]:
+                - listitem [ref=e3226]:
+                  - img [ref=e3227]
+                - listitem [ref=e3232]:
+                  - button "tailwindcss button" [ref=e3233]:
+                    - img [ref=e3234]
+                - listitem [ref=e3237]:
+                  - button "tailwindcss button" [ref=e3238]:
+                    - img [ref=e3239]
+                - listitem [ref=e3241]:
+                  - button "tailwindcss button" [ref=e3242]:
+                    - img [ref=e3243]
+                - listitem [ref=e3245]:
+                  - button "tailwindcss button" [ref=e3246]:
+                    - img [ref=e3247]
+                - listitem [ref=e3250]:
+                  - button "tailwindcss button" [ref=e3251]:
+                    - img [ref=e3252]
+              - list [ref=e3261]:
+                - listitem [ref=e3262]: Admin panel
+                - listitem [ref=e3263]:
+                  - button "Dashboard" [ref=e3264]:
+                    - img [ref=e3265]
+                    - text: Dashboard
+                - listitem [ref=e3268]:
+                  - button "tailwindcss button" [ref=e3269]:
+                    - img [ref=e3270]
+                    - text: Notifications
+                - listitem [ref=e3272]:
+                  - button "tailwindcss button" [ref=e3273]:
+                    - img [ref=e3274]
+                    - text: Messages
+                - listitem [ref=e3276]:
+                  - button "tailwindcss button" [ref=e3277]:
+                    - img [ref=e3278]
+                    - text: People
+                - listitem [ref=e3281]:
+                  - button "tailwindcss button" [ref=e3282]:
+                    - img [ref=e3283]
+                    - text: Products
+                    - generic [ref=e3291]: "50"
+            - generic [ref=e3292]:
+              - button [ref=e3293] [cursor=pointer]: Neutral
+              - button [ref=e3294] [cursor=pointer]: Primary
+              - button [ref=e3295] [cursor=pointer]: Secondary
+              - button [ref=e3296] [cursor=pointer]: Accent
+              - button [ref=e3297] [cursor=pointer]: Info
+              - button [ref=e3298] [cursor=pointer]: Success
+              - button [ref=e3299] [cursor=pointer]: Warning
+              - button [ref=e3300] [cursor=pointer]: Error
+          - generic [ref=e399]:
+            - generic [ref=e3301]:
+              - button "tailwindcss avatar" [ref=e3303] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e3305]
+              - list [ref=e3306]:
+                - listitem [ref=e3307]:
+                  - button "Inbox 99+" [ref=e3308]:
+                    - img [ref=e3309]
+                    - text: Inbox
+                    - generic [ref=e3311]: 99+
+                - listitem [ref=e3312]:
+                  - button "Updates NEW" [ref=e3313]:
+                    - text: Updates
+                    - generic [ref=e3314]: NEW
+                - listitem [ref=e3315]:
+                  - button "Stats" [ref=e3316]: Stats
+            - generic [ref=e400]:
+              - generic [ref=e401]: Unlimited themes
+              - paragraph [ref=e402]: with zero effort
+              - paragraph [ref=e404]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e407] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e3320]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e3322]:
+            - generic [ref=e3323]: Semantic colors
+            - generic [ref=e3324]:
+              - generic [ref=e3327]: primary
+              - generic [ref=e3330]: secondary
+              - generic [ref=e3333]: accent
+              - generic [ref=e3336]: neutral
+              - generic [ref=e3339]: primary content
+              - generic [ref=e3342]: secondary content
+              - generic [ref=e3345]: accent content
+              - generic [ref=e3348]: neutral content
+              - generic [ref=e3351]: base 100
+              - generic [ref=e3354]: base 200
+              - generic [ref=e3357]: base 300
+              - generic [ref=e3360]: base content
+              - generic [ref=e3363]: info
+              - generic [ref=e3366]: success
+              - generic [ref=e3369]: warning
+              - generic [ref=e3372]: error
+              - generic [ref=e3375]: info content
+              - generic [ref=e3378]: success content
+              - generic [ref=e3381]: warning content
+              - generic [ref=e3384]: error content
+            - link "Learn more about colors" [ref=e3386] [cursor=pointer]:
+              - /url: /docs/colors/
+        - generic [ref=e409]:
+          - generic [ref=e3387]:
+            - generic [ref=e3388]:
+              - list [ref=e3390]:
+                - listitem [ref=e3391]:
+                  - img [ref=e3392]
+                - listitem [ref=e3397]:
+                  - button "tailwindcss button" [ref=e3398]:
+                    - img [ref=e3399]
+                - listitem [ref=e3402]:
+                  - button "tailwindcss button" [ref=e3403]:
+                    - img [ref=e3404]
+                - listitem [ref=e3406]:
+                  - button "tailwindcss button" [ref=e3407]:
+                    - img [ref=e3408]
+                - listitem [ref=e3410]:
+                  - button "tailwindcss button" [ref=e3411]:
+                    - img [ref=e3412]
+                - listitem [ref=e3415]:
+                  - button "tailwindcss button" [ref=e3416]:
+                    - img [ref=e3417]
+              - list [ref=e3426]:
+                - listitem [ref=e3427]: Admin panel
+                - listitem [ref=e3428]:
+                  - button "Dashboard" [ref=e3429]:
+                    - img [ref=e3430]
+                    - text: Dashboard
+                - listitem [ref=e3433]:
+                  - button "tailwindcss button" [ref=e3434]:
+                    - img [ref=e3435]
+                    - text: Notifications
+                - listitem [ref=e3437]:
+                  - button "tailwindcss button" [ref=e3438]:
+                    - img [ref=e3439]
+                    - text: Messages
+                - listitem [ref=e3441]:
+                  - button "tailwindcss button" [ref=e3442]:
+                    - img [ref=e3443]
+                    - text: People
+                - listitem [ref=e3446]:
+                  - button "tailwindcss button" [ref=e3447]:
+                    - img [ref=e3448]
+                    - text: Products
+                    - generic [ref=e3456]: "50"
+            - generic [ref=e3457]:
+              - button [ref=e3458] [cursor=pointer]: Neutral
+              - button [ref=e3459] [cursor=pointer]: Primary
+              - button [ref=e3460] [cursor=pointer]: Secondary
+              - button [ref=e3461] [cursor=pointer]: Accent
+              - button [ref=e3462] [cursor=pointer]: Info
+              - button [ref=e3463] [cursor=pointer]: Success
+              - button [ref=e3464] [cursor=pointer]: Warning
+              - button [ref=e3465] [cursor=pointer]: Error
+          - generic [ref=e410]:
+            - generic [ref=e3466]:
+              - button "tailwindcss avatar" [ref=e3468] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e3470]
+              - list [ref=e3471]:
+                - listitem [ref=e3472]:
+                  - button "Inbox 99+" [ref=e3473]:
+                    - img [ref=e3474]
+                    - text: Inbox
+                    - generic [ref=e3476]: 99+
+                - listitem [ref=e3477]:
+                  - button "Updates NEW" [ref=e3478]:
+                    - text: Updates
+                    - generic [ref=e3479]: NEW
+                - listitem [ref=e3480]:
+                  - button "Stats" [ref=e3481]: Stats
+            - generic [ref=e411]:
+              - generic [ref=e412]: Unlimited themes
+              - paragraph [ref=e413]: with zero effort
+              - paragraph [ref=e415]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e418] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e3485]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e3487]:
+            - generic [ref=e3488]: Semantic colors
+            - generic [ref=e3489]:
+              - generic [ref=e3492]: primary
+              - generic [ref=e3495]: secondary
+              - generic [ref=e3498]: accent
+              - generic [ref=e3501]: neutral
+              - generic [ref=e3504]: primary content
+              - generic [ref=e3507]: secondary content
+              - generic [ref=e3510]: accent content
+              - generic [ref=e3513]: neutral content
+              - generic [ref=e3516]: base 100
+              - generic [ref=e3519]: base 200
+              - generic [ref=e3522]: base 300
+              - generic [ref=e3525]: base content
+              - generic [ref=e3528]: info
+              - generic [ref=e3531]: success
+              - generic [ref=e3534]: warning
+              - generic [ref=e3537]: error
+              - generic [ref=e3540]: info content
+              - generic [ref=e3543]: success content
+              - generic [ref=e3546]: warning content
+              - generic [ref=e3549]: error content
+            - link "Learn more about colors" [ref=e3551] [cursor=pointer]:
+              - /url: /docs/colors/
+        - generic [ref=e420]:
+          - generic [ref=e3552]:
+            - generic [ref=e3553]:
+              - list [ref=e3555]:
+                - listitem [ref=e3556]:
+                  - img [ref=e3557]
+                - listitem [ref=e3562]:
+                  - button "tailwindcss button" [ref=e3563]:
+                    - img [ref=e3564]
+                - listitem [ref=e3567]:
+                  - button "tailwindcss button" [ref=e3568]:
+                    - img [ref=e3569]
+                - listitem [ref=e3571]:
+                  - button "tailwindcss button" [ref=e3572]:
+                    - img [ref=e3573]
+                - listitem [ref=e3575]:
+                  - button "tailwindcss button" [ref=e3576]:
+                    - img [ref=e3577]
+                - listitem [ref=e3580]:
+                  - button "tailwindcss button" [ref=e3581]:
+                    - img [ref=e3582]
+              - list [ref=e3591]:
+                - listitem [ref=e3592]: Admin panel
+                - listitem [ref=e3593]:
+                  - button "Dashboard" [ref=e3594]:
+                    - img [ref=e3595]
+                    - text: Dashboard
+                - listitem [ref=e3598]:
+                  - button "tailwindcss button" [ref=e3599]:
+                    - img [ref=e3600]
+                    - text: Notifications
+                - listitem [ref=e3602]:
+                  - button "tailwindcss button" [ref=e3603]:
+                    - img [ref=e3604]
+                    - text: Messages
+                - listitem [ref=e3606]:
+                  - button "tailwindcss button" [ref=e3607]:
+                    - img [ref=e3608]
+                    - text: People
+                - listitem [ref=e3611]:
+                  - button "tailwindcss button" [ref=e3612]:
+                    - img [ref=e3613]
+                    - text: Products
+                    - generic [ref=e3621]: "50"
+            - generic [ref=e3622]:
+              - button [ref=e3623] [cursor=pointer]: Neutral
+              - button [ref=e3624] [cursor=pointer]: Primary
+              - button [ref=e3625] [cursor=pointer]: Secondary
+              - button [ref=e3626] [cursor=pointer]: Accent
+              - button [ref=e3627] [cursor=pointer]: Info
+              - button [ref=e3628] [cursor=pointer]: Success
+              - button [ref=e3629] [cursor=pointer]: Warning
+              - button [ref=e3630] [cursor=pointer]: Error
+          - generic [ref=e421]:
+            - generic [ref=e3631]:
+              - button "tailwindcss avatar" [ref=e3633] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e3635]
+              - list [ref=e3636]:
+                - listitem [ref=e3637]:
+                  - button "Inbox 99+" [ref=e3638]:
+                    - img [ref=e3639]
+                    - text: Inbox
+                    - generic [ref=e3641]: 99+
+                - listitem [ref=e3642]:
+                  - button "Updates NEW" [ref=e3643]:
+                    - text: Updates
+                    - generic [ref=e3644]: NEW
+                - listitem [ref=e3645]:
+                  - button "Stats" [ref=e3646]: Stats
+            - generic [ref=e422]:
+              - generic [ref=e423]: Unlimited themes
+              - paragraph [ref=e424]: with zero effort
+              - paragraph [ref=e426]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e429] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e3650]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e3652]:
+            - generic [ref=e3653]: Semantic colors
+            - generic [ref=e3654]:
+              - generic [ref=e3657]: primary
+              - generic [ref=e3660]: secondary
+              - generic [ref=e3663]: accent
+              - generic [ref=e3666]: neutral
+              - generic [ref=e3669]: primary content
+              - generic [ref=e3672]: secondary content
+              - generic [ref=e3675]: accent content
+              - generic [ref=e3678]: neutral content
+              - generic [ref=e3681]: base 100
+              - generic [ref=e3684]: base 200
+              - generic [ref=e3687]: base 300
+              - generic [ref=e3690]: base content
+              - generic [ref=e3693]: info
+              - generic [ref=e3696]: success
+              - generic [ref=e3699]: warning
+              - generic [ref=e3702]: error
+              - generic [ref=e3705]: info content
+              - generic [ref=e3708]: success content
+              - generic [ref=e3711]: warning content
+              - generic [ref=e3714]: error content
+            - link "Learn more about colors" [ref=e3716] [cursor=pointer]:
+              - /url: /docs/colors/
+        - generic [ref=e431]:
+          - generic [ref=e3717]:
+            - generic [ref=e3718]:
+              - list [ref=e3720]:
+                - listitem [ref=e3721]:
+                  - img [ref=e3722]
+                - listitem [ref=e3727]:
+                  - button "tailwindcss button" [ref=e3728]:
+                    - img [ref=e3729]
+                - listitem [ref=e3732]:
+                  - button "tailwindcss button" [ref=e3733]:
+                    - img [ref=e3734]
+                - listitem [ref=e3736]:
+                  - button "tailwindcss button" [ref=e3737]:
+                    - img [ref=e3738]
+                - listitem [ref=e3740]:
+                  - button "tailwindcss button" [ref=e3741]:
+                    - img [ref=e3742]
+                - listitem [ref=e3745]:
+                  - button "tailwindcss button" [ref=e3746]:
+                    - img [ref=e3747]
+              - list [ref=e3756]:
+                - listitem [ref=e3757]: Admin panel
+                - listitem [ref=e3758]:
+                  - button "Dashboard" [ref=e3759]:
+                    - img [ref=e3760]
+                    - text: Dashboard
+                - listitem [ref=e3763]:
+                  - button "tailwindcss button" [ref=e3764]:
+                    - img [ref=e3765]
+                    - text: Notifications
+                - listitem [ref=e3767]:
+                  - button "tailwindcss button" [ref=e3768]:
+                    - img [ref=e3769]
+                    - text: Messages
+                - listitem [ref=e3771]:
+                  - button "tailwindcss button" [ref=e3772]:
+                    - img [ref=e3773]
+                    - text: People
+                - listitem [ref=e3776]:
+                  - button "tailwindcss button" [ref=e3777]:
+                    - img [ref=e3778]
+                    - text: Products
+                    - generic [ref=e3786]: "50"
+            - generic [ref=e3787]:
+              - button [ref=e3788] [cursor=pointer]: Neutral
+              - button [ref=e3789] [cursor=pointer]: Primary
+              - button [ref=e3790] [cursor=pointer]: Secondary
+              - button [ref=e3791] [cursor=pointer]: Accent
+              - button [ref=e3792] [cursor=pointer]: Info
+              - button [ref=e3793] [cursor=pointer]: Success
+              - button [ref=e3794] [cursor=pointer]: Warning
+              - button [ref=e3795] [cursor=pointer]: Error
+          - generic [ref=e432]:
+            - generic [ref=e3796]:
+              - button "tailwindcss avatar" [ref=e3798] [cursor=pointer]:
+                - img "Tailwind CSS button" [ref=e3800]
+              - list [ref=e3801]:
+                - listitem [ref=e3802]:
+                  - button "Inbox 99+" [ref=e3803]:
+                    - img [ref=e3804]
+                    - text: Inbox
+                    - generic [ref=e3806]: 99+
+                - listitem [ref=e3807]:
+                  - button "Updates NEW" [ref=e3808]:
+                    - text: Updates
+                    - generic [ref=e3809]: NEW
+                - listitem [ref=e3810]:
+                  - button "Stats" [ref=e3811]: Stats
+            - generic [ref=e433]:
+              - generic [ref=e434]: Unlimited themes
+              - paragraph [ref=e435]: with zero effort
+              - paragraph [ref=e437]: daisyUI adds a set of customizable color names to Tailwind CSS and these new colors use CSS variables for the values. Using daisyUI color names, you get Dark Mode and even more themes without adding a new class name.
+              - link "See all themes" [ref=e440] [cursor=pointer]:
+                - /url: /docs/themes/
+            - generic [ref=e3815]:
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss toggle" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+              - checkbox "tailwindcss checkbox" [checked]
+          - generic [ref=e3817]:
+            - generic [ref=e3818]: Semantic colors
+            - generic [ref=e3819]:
+              - generic [ref=e3822]: primary
+              - generic [ref=e3825]: secondary
+              - generic [ref=e3828]: accent
+              - generic [ref=e3831]: neutral
+              - generic [ref=e3834]: primary content
+              - generic [ref=e3837]: secondary content
+              - generic [ref=e3840]: accent content
+              - generic [ref=e3843]: neutral content
+              - generic [ref=e3846]: base 100
+              - generic [ref=e3849]: base 200
+              - generic [ref=e3852]: base 300
+              - generic [ref=e3855]: base content
+              - generic [ref=e3858]: info
+              - generic [ref=e3861]: success
+              - generic [ref=e3864]: warning
+              - generic [ref=e3867]: error
+              - generic [ref=e3870]: info content
+              - generic [ref=e3873]: success content
+              - generic [ref=e3876]: warning content
+              - generic [ref=e3879]: error content
+            - link "Learn more about colors" [ref=e3881] [cursor=pointer]:
+              - /url: /docs/colors/
+      - generic [ref=e443]:
+        - heading "Apply your own design decisions" [level=2] [ref=e444]
+        - paragraph [ref=e445]: Your website should be unique. Create a custom theme for yourself using daisyUI theme generator. The colors you pick will be applied to all daisyUI components.
+        - generic [ref=e447]:
+          - link "Theme Generator" [ref=e448] [cursor=pointer]:
+            - /url: /theme-generator/
+          - link "Learn more about themes" [ref=e449] [cursor=pointer]:
+            - /url: /docs/themes/#how-to-add-custom-styles-for-a-specific-theme
+      - generic [ref=e452]:
+        - heading "65 Components 500+ utility classes endless possibilities" [level=2] [ref=e453]:
+          - text: 65 Components
+          - text: 500+ utility classes
+          - generic [ref=e454]:
+            - generic: endless possibilities
+            - generic [ref=e455]: endless possibilities
+        - paragraph [ref=e456]: Mix and match daisyUI class names to create unique web pages.
+        - link "See All Components" [ref=e459] [cursor=pointer]:
+          - /url: /components/
+      - generic [ref=e461]:
+        - heading "daisyUI is the most popular component library for Tailwind CSS" [level=2] [ref=e462]:
+          - text: daisyUI is the most popular
+          - text: component library for Tailwind CSS
+        - generic [ref=e464]:
+          - generic [ref=e465]:
+            - generic [ref=e467]: 39,738
+            - link "GitHub Stars" [ref=e468] [cursor=pointer]:
+              - /url: https://github.com/saadeghi/daisyui
+          - generic [ref=e469]:
+            - generic [ref=e471]: 428,322
+            - link "open-source projects using daisyUI" [ref=e472] [cursor=pointer]:
+              - /url: https://github.com/saadeghi/daisyui/network/dependents
+          - generic [ref=e473]:
+            - generic [ref=e475]: 29,730,969
+            - link "NPM Installs" [ref=e476] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/daisyui
+      - generic [ref=e478]:
+        - paragraph [ref=e479]: Featured in
+        - generic [ref=e481]:
+          - generic [ref=e482]:
+            - text: YouTube channel and courses
+            - img [ref=e483]
+            - generic [ref=e485]: Fireship.io
+          - generic [ref=e486]:
+            - text: Episode 751 and YouTube channel
+            - img [ref=e487]
+            - generic [ref=e489]: Syntax Podcast
+          - generic [ref=e490]:
+            - text: YouTube channel
+            - img [ref=e491]
+            - generic [ref=e493]: FreeCodeCamp
+          - generic [ref=e494]:
+            - text: Episode 247
+            - img [ref=e495]
+            - generic [ref=e509]: Thinking Elixir Podcast
+          - generic [ref=e510]:
+            - text: Podcast and YouTube channel
+            - img [ref=e511]
+            - generic [ref=e533]: Coding Cat Podcast
+      - generic [ref=e535]:
+        - generic [ref=e537]:
+          - paragraph [ref=e538]:
+            - text: I've been
+            - mark [ref=e539]: enjoying daisyui
+            - text: since I discovered it very recently, great job!
+          - generic [ref=e540]:
+            - link "Vincent Bergeron" [ref=e542] [cursor=pointer]:
+              - /url: https://x.com/vbergerondev/status/1900914834918547475
+            - generic [ref=e544]:
+              - generic [ref=e545]: Vincent Bergeron
+              - generic [ref=e546]: Software Developer
+        - generic [ref=e548]:
+          - paragraph [ref=e549]:
+            - text: I think daisyUI is very cool, it's
+            - mark [ref=e550]: easy to use
+            - text: and you can build a clean UI with it. 👍 😁
+          - generic [ref=e551]:
+            - link "Nihad" [ref=e553] [cursor=pointer]:
+              - /url: https://x.com/n1hkrc/status/1742444997616476204
+            - generic [ref=e555]:
+              - generic [ref=e556]: Nihad
+              - generic [ref=e557]: Frontend Software Engineer
+        - generic [ref=e559]:
+          - paragraph [ref=e560]: daisyUI is awesome!
+          - generic [ref=e561]:
+            - link "borislav grigorov" [ref=e563] [cursor=pointer]:
+              - /url: https://x.com/Brslv/status/1657034356454576130
+            - generic [ref=e565]:
+              - generic [ref=e566]: borislav grigorov
+              - generic [ref=e567]: Indiehacker
+        - generic [ref=e569]:
+          - paragraph [ref=e570]: If you want to create a quick MVP for your next project, I recommend daisyUI. It offers a simple and elegant design.✨
+          - generic [ref=e571]:
+            - link "Jairon Landa" [ref=e573] [cursor=pointer]:
+              - /url: https://x.com/jaironlanda/status/1710502398459093222
+            - generic [ref=e575]:
+              - generic [ref=e576]: Jairon Landa
+              - generic [ref=e577]: Software developer
+        - generic [ref=e579]:
+          - paragraph [ref=e580]:
+            - text: I was already a fan of daisyUI because of their
+            - mark [ref=e581]: incredible components and theme system
+            - text: But did you know they also have entire templates 😍
+          - generic [ref=e582]:
+            - link "Erwin" [ref=e584] [cursor=pointer]:
+              - /url: https://x.com/Erwin_AI/status/1765987410343559635
+            - generic [ref=e586]:
+              - generic [ref=e587]: Erwin
+              - generic [ref=e588]: Founder of Tailscan
+        - generic [ref=e590]:
+          - paragraph [ref=e591]: daisyUI is so good! I love how it sticks with the basic HTML components. Truly great.
+          - generic [ref=e592]:
+            - link "Nico Devs" [ref=e594] [cursor=pointer]:
+              - /url: https://x.com/nicodevs/status/1896254534353297851
+            - generic [ref=e596]:
+              - generic [ref=e597]: Nico Devs
+              - generic [ref=e598]: Software Engineer
+        - generic [ref=e600]:
+          - paragraph [ref=e601]:
+            - text: If you want to
+            - mark [ref=e602]: build beautiful apps in no time
+            - text: daisyUI is the way to go ✨ I've been using it for the past 6 months and can't imagine living without it...
+          - generic [ref=e603]:
+            - link "Marc Lou" [ref=e605] [cursor=pointer]:
+              - /url: https://x.com/marc_louvion/status/1534886647850221571
+            - generic [ref=e607]:
+              - generic [ref=e608]: Marc Lou
+              - generic [ref=e609]: Solopreneur
+        - generic [ref=e611]:
+          - paragraph [ref=e612]: I recommend you to use daisyUI on top of Tailwind they work together and gives more possibilities and ease.
+          - generic [ref=e613]:
+            - link "Christophe Anfry" [ref=e615] [cursor=pointer]:
+              - /url: https://x.com/ChristopheAnfry/status/1645460935044112385
+            - generic [ref=e617]:
+              - generic [ref=e618]: Christophe Anfry
+              - generic [ref=e619]: Ex Google Workspace technical support
+        - generic [ref=e621]:
+          - paragraph [ref=e622]: I'm a big fan of daisyUI
+          - generic [ref=e623]:
+            - link "Dan Schoonmaker" [ref=e625] [cursor=pointer]:
+              - /url: https://x.com/DanSchoonmaker/status/1782792786699293175
+            - generic [ref=e627]:
+              - generic [ref=e628]: Dan Schoonmaker
+              - generic [ref=e629]: Software engineer
+        - generic [ref=e631]:
+          - paragraph [ref=e632]: daisyUI is the only way to use tailwind
+          - generic [ref=e633]:
+            - link "Suspect" [ref=e635] [cursor=pointer]:
+              - /url: https://x.com/0xds102/status/1895951463240843555
+            - generic [ref=e637]:
+              - generic [ref=e638]: Suspect
+              - generic [ref=e639]: Dev
+        - generic [ref=e641]:
+          - paragraph [ref=e642]: I used daisyUI theme generator's Halloween theme and tweaked it to what I want and now, I'm so proud of what I've got!
+          - generic [ref=e643]:
+            - link "Ade" [ref=e645] [cursor=pointer]:
+              - /url: https://x.com/Ade_the_great/status/1903945275913179413
+            - generic [ref=e647]:
+              - generic [ref=e648]: Ade
+              - generic [ref=e649]: Software Engineer
+        - generic [ref=e651]:
+          - paragraph [ref=e652]:
+            - text: I love daisyUI, It's by far
+            - mark [ref=e653]: my favorite CSS tool
+            - text: and what finally got me into Tailwind. I'm shipping great looking UIs thanks to daisyUI.
+          - generic [ref=e654]:
+            - link "Alejandro Barrera Aponte" [ref=e656] [cursor=pointer]:
+              - /url: https://x.com/abarreraaponte/status/1780311682088095782
+            - generic [ref=e659]: Alejandro Barrera Aponte
+        - generic [ref=e661]:
+          - paragraph [ref=e662]: If you try daisyUI, there is no turning back... 😏
+          - generic [ref=e663]:
+            - link "Marc Lou" [ref=e665] [cursor=pointer]:
+              - /url: https://x.com/marc_louvion/status/1538447628400091137
+            - generic [ref=e667]:
+              - generic [ref=e668]: Marc Lou
+              - generic [ref=e669]: Solopreneur
+        - generic [ref=e671]:
+          - paragraph [ref=e672]: Using daisyUI feels like using the old Bootstrap but with the additional power of Tailwind's customization.
+          - generic [ref=e673]:
+            - link "Mazipan" [ref=e675] [cursor=pointer]:
+              - /url: https://x.com/Maz_Ipan/status/1654010583673634822
+            - generic [ref=e677]:
+              - generic [ref=e678]: Mazipan
+              - generic [ref=e679]: Software developer
+        - generic [ref=e681]:
+          - paragraph [ref=e682]: I found daisyUI to be an amazing pair with htmx
+          - generic [ref=e683]:
+            - link "Ryan Dsouza" [ref=e685] [cursor=pointer]:
+              - /url: https://x.com/ryands1701/status/1865109526757744739
+            - generic [ref=e687]:
+              - generic [ref=e688]: Ryan Dsouza
+              - generic [ref=e689]: DevOps enthusiast
+        - generic [ref=e691]:
+          - paragraph [ref=e692]: DaisyUI is pretty amazing
+          - generic [ref=e693]:
+            - link "Shawn" [ref=e695] [cursor=pointer]:
+              - /url: https://x.com/shawnmvn/status/1909462640788996236
+            - generic [ref=e697]:
+              - generic [ref=e698]: Shawn
+              - generic [ref=e699]: Developer
+        - generic [ref=e701]:
+          - paragraph [ref=e702]: daisyUI is what I use for everything now.
+          - generic [ref=e703]:
+            - link "Pramod" [ref=e705] [cursor=pointer]:
+              - /url: https://x.com/pramodk73/status/1723202429582504430
+            - generic [ref=e707]:
+              - generic [ref=e708]: Pramod
+              - generic [ref=e709]: Software developer
+        - generic [ref=e711]:
+          - paragraph [ref=e712]: I love daisyUI and we used it for a hackathon project last week
+          - generic [ref=e713]:
+            - link "Loftwah" [ref=e715] [cursor=pointer]:
+              - /url: https://x.com/loftwah/status/1614929248506236929
+            - generic [ref=e717]:
+              - generic [ref=e718]: Loftwah
+              - generic [ref=e719]: DevOps Engineer
+        - generic [ref=e721]:
+          - paragraph [ref=e722]:
+            - text: daisyUI makes working with UI components
+            - mark [ref=e723]: so easy
+          - generic [ref=e724]:
+            - link "Jason" [ref=e726] [cursor=pointer]:
+              - /url: https://x.com/jasoki/status/1909498182616379418
+            - generic [ref=e728]:
+              - generic [ref=e729]: Jason
+              - generic [ref=e730]: Indie Game Dev
+        - generic [ref=e732]:
+          - paragraph [ref=e733]:
+            - text: daisyUI v5 is a
+            - mark [ref=e734]: game changer
+            - text: ... It's never been this easy to customize components and theme in typical server rendered projects. 😍
+          - generic [ref=e735]:
+            - link "iam_bpn" [ref=e737] [cursor=pointer]:
+              - /url: https://x.com/iambepin/status/1882466817735864384
+            - generic [ref=e739]:
+              - generic [ref=e740]: iam_bpn
+              - generic [ref=e741]: Developer
+        - generic [ref=e743]:
+          - paragraph [ref=e744]: While I love the flexibility of Tailwind CSS, I always find myself configuring re-usable styles as I hammer out a visual concept. daisyUI made doing that a lot easier today.
+          - generic [ref=e745]:
+            - link "Chris Tankersley" [ref=e747] [cursor=pointer]:
+              - /url: https://x.com/dragonmantank/status/1636094971945054211
+            - generic [ref=e749]:
+              - generic [ref=e750]: Chris Tankersley
+              - generic [ref=e751]: PHP Developer, Writer, Speaker, and Teacher
+        - generic [ref=e753]:
+          - paragraph [ref=e754]: We are using Go for the backend, daisyUI + Tailwind for styling, and HTMX for interactivity.
+          - generic [ref=e755]:
+            - link "Jack Spirou" [ref=e757] [cursor=pointer]:
+              - /url: https://x.com/jack_spirou/status/1863252629767311392
+            - generic [ref=e759]:
+              - generic [ref=e760]: Jack Spirou
+              - generic [ref=e761]: Founder
+        - generic [ref=e763]:
+          - paragraph [ref=e764]:
+            - text: I
+            - mark [ref=e765]: absolutely love daisyUI
+            - text: and use it in all my projects.
+          - generic [ref=e766]:
+            - link "Cam Pak" [ref=e768] [cursor=pointer]:
+              - /url: https://x.com/CameronPak/status/1894470049722671169
+            - generic [ref=e770]:
+              - generic [ref=e771]: Cam Pak
+              - generic [ref=e772]: Developer
+        - generic [ref=e774]:
+          - paragraph [ref=e775]:
+            - text: Why did it take me so long to pair Tailwind with daisyUI…
+            - mark [ref=e776]: Now I feel like a 10X developer
+            - text: .
+          - generic [ref=e777]:
+            - link "Joel Pickin" [ref=e779] [cursor=pointer]:
+              - /url: https://x.com/joelpickin/status/1717453198963642531
+            - generic [ref=e781]:
+              - generic [ref=e782]: Joel Pickin
+              - generic [ref=e783]: Software developer
+        - generic [ref=e785]:
+          - paragraph [ref=e786]: Can't state how much I love daisyUI ♥️
+          - generic [ref=e787]:
+            - link "rootkid" [ref=e789] [cursor=pointer]:
+              - /url: https://x.com/rootkid/status/1899818430011736074
+            - generic [ref=e791]:
+              - generic [ref=e792]: rootkid
+              - generic [ref=e793]: Software Developer
+        - generic [ref=e795]:
+          - paragraph [ref=e796]: Been using daisyUI for a while and I must say...such a fun addon for Tailwind CSS, well done 🔥
+          - generic [ref=e797]:
+            - link "Dev Ed" [ref=e799] [cursor=pointer]:
+              - /url: https://x.com/developedbyed/status/1633913146422198276
+            - generic [ref=e801]:
+              - generic [ref=e802]: Dev Ed
+              - generic [ref=e803]: Content Creator
+        - generic [ref=e805]:
+          - paragraph [ref=e806]:
+            - text: I used daisyUI,
+            - mark [ref=e807]: super happy with it!
+          - generic [ref=e808]:
+            - link "Nick S." [ref=e810] [cursor=pointer]:
+              - /url: https://x.com/Nsmet93/status/1744283320207196546
+            - generic [ref=e812]:
+              - generic [ref=e813]: Nick S.
+              - generic [ref=e814]: SaaS builder
+        - generic [ref=e816]:
+          - paragraph [ref=e817]:
+            - text: daisyUI is such a
+            - mark [ref=e818]: time saver
+          - generic [ref=e819]:
+            - link "Ollie The Dev" [ref=e821] [cursor=pointer]:
+              - /url: https://x.com/olliethedev/status/1658134686177153024
+            - generic [ref=e823]:
+              - generic [ref=e824]: Ollie The Dev
+              - generic [ref=e825]: Amplify UI, texttodesign.ai
+        - generic [ref=e827]:
+          - paragraph [ref=e828]: daisyUI is awesome!
+          - generic [ref=e829]:
+            - link "Daniel Kelly" [ref=e831] [cursor=pointer]:
+              - /url: https://x.com/danielkelly_io/status/1636132972142161927
+            - generic [ref=e833]:
+              - generic [ref=e834]: Daniel Kelly
+              - generic [ref=e835]: Teacher/Content Creator at vueschool.io
+        - generic [ref=e837]:
+          - paragraph [ref=e838]: daisyUI really makes it super easy to get a clean looking MVP up and out the door.
+          - generic [ref=e839]:
+            - link "Josh Cirre" [ref=e841] [cursor=pointer]:
+              - /url: https://x.com/joshcirre/status/1715485256407777529
+            - generic [ref=e843]:
+              - generic [ref=e844]: Josh Cirre
+              - generic [ref=e845]: Entrepreneur
+        - generic [ref=e847]:
+          - paragraph [ref=e848]:
+            - text: Just revamped my personal website using daisyUI and I'm thrilled with the
+            - mark [ref=e849]: simplicity and cleanliness
+            - text: it brings!
+          - generic [ref=e850]:
+            - link "Christian" [ref=e852] [cursor=pointer]:
+              - /url: https://x.com/achris_15/status/1764616529184965114
+            - generic [ref=e854]:
+              - generic [ref=e855]: Christian
+              - generic [ref=e856]: Ruby on Rails Developer
+        - generic [ref=e858]:
+          - paragraph [ref=e859]: I use daisyUI for every site now!
+          - generic [ref=e860]:
+            - link "TikitaTech" [ref=e862] [cursor=pointer]:
+              - /url: https://x.com/TikitaTech/status/1783878393055805826
+            - generic [ref=e864]:
+              - generic [ref=e865]: TikitaTech
+              - generic [ref=e866]: Indie hacker
+        - generic [ref=e868]:
+          - paragraph [ref=e869]: I'm glad I found daisyUI. daisyUI is built with Tailwind CSS which makes it perfect fit for me.
+          - generic [ref=e870]:
+            - link "Rem Kim" [ref=e872] [cursor=pointer]:
+              - /url: https://x.com/remkim_/status/1641817678334816257
+            - generic [ref=e874]:
+              - generic [ref=e875]: Rem Kim
+              - generic [ref=e876]: Founder of resolveai.co
+        - generic [ref=e878]:
+          - paragraph [ref=e879]:
+            - mark [ref=e880]: I'm enjoying daisyUI
+          - generic [ref=e881]:
+            - link "Alexander Thomsen" [ref=e883] [cursor=pointer]:
+              - /url: https://x.com/AlexBThomsen/status/1708265819442905443
+            - generic [ref=e885]:
+              - generic [ref=e886]: Alexander Thomsen
+              - generic [ref=e887]: Founder of moonbit.ai
+        - generic [ref=e889]:
+          - paragraph [ref=e890]:
+            - text: We use daisyUI + Tailwind with our projects. It has been
+            - mark [ref=e891]: extremely helpful
+            - text: building websites fast and give us a red design line through several different projects.
+          - generic [ref=e892]:
+            - link "TiiaAurora" [ref=e894] [cursor=pointer]:
+              - /url: https://x.com/TiiaAurora/status/1556968894862180354
+            - generic [ref=e896]:
+              - generic [ref=e897]: TiiaAurora
+              - generic [ref=e898]: Tech journalist
+        - generic [ref=e900]:
+          - paragraph [ref=e901]:
+            - text: Using a component library such as
+            - mark [ref=e902]: daisyUI is such a productivity hack
+            - text: . No going back from that.
+          - generic [ref=e903]:
+            - link "Josef Büttgen" [ref=e905] [cursor=pointer]:
+              - /url: https://x.com/josefbuettgen/status/1748264256527888407
+            - generic [ref=e907]:
+              - generic [ref=e908]: Josef Büttgen
+              - generic [ref=e909]: Developer
+        - generic [ref=e911]:
+          - paragraph [ref=e912]: DaisyUI just looks amazing.
+          - generic [ref=e913]:
+            - link "Kelvin Htat" [ref=e915] [cursor=pointer]:
+              - /url: https://x.com/kelvinhtat/status/1911652832664752410
+            - generic [ref=e917]:
+              - generic [ref=e918]: Kelvin Htat
+              - generic [ref=e919]: Solo founder
+        - generic [ref=e921]:
+          - paragraph [ref=e922]: Rails 8 + daisyUI = MVP Magic
+          - generic [ref=e923]:
+            - link "Kaleb Lape" [ref=e925] [cursor=pointer]:
+              - /url: https://x.com/RailsQuest/status/1853527642860818576
+            - generic [ref=e927]:
+              - generic [ref=e928]: Kaleb Lape
+              - generic [ref=e929]: Rails developer
+        - generic [ref=e931]:
+          - paragraph [ref=e932]:
+            - mark [ref=e933]: Love daisyUI
+            - text: ", excited to use it again on my next job"
+          - generic [ref=e934]:
+            - link "Steve Williams" [ref=e936] [cursor=pointer]:
+              - /url: https://x.com/tweetsbysteve/status/1871234870435078619
+            - generic [ref=e938]:
+              - generic [ref=e939]: Steve Williams
+              - generic [ref=e940]: Applications developer
+        - generic [ref=e942]:
+          - paragraph [ref=e943]:
+            - text: daisyUI is good,
+            - mark [ref=e944]: makes code much cleaner
+            - text: for often used sets of classes without massive amount's of extra css bloat.
+          - generic [ref=e945]:
+            - link "Aaron Moy" [ref=e947] [cursor=pointer]:
+              - /url: https://x.com/MrAaronMoy/status/1772228609706434811
+            - generic [ref=e949]:
+              - generic [ref=e950]: Aaron Moy
+              - generic [ref=e951]: Founder
+        - generic [ref=e953]:
+          - paragraph [ref=e954]: I Love daisyUI
+          - generic [ref=e955]:
+            - link "Guillaume Meyer" [ref=e957] [cursor=pointer]:
+              - /url: https://x.com/guillaumemeyer/status/1887670959823315183
+            - generic [ref=e959]:
+              - generic [ref=e960]: Guillaume Meyer
+              - generic [ref=e961]: Entrepreneur
+        - generic [ref=e963]:
+          - paragraph [ref=e964]: DaisyUI is really goated! I am a happy user for the past 5 years.
+          - generic [ref=e965]:
+            - link "Nithur" [ref=e967] [cursor=pointer]:
+              - /url: https://x.com/NithurM/status/1909629944130424880
+            - generic [ref=e969]:
+              - generic [ref=e970]: Nithur
+              - generic [ref=e971]: Developer
+        - generic [ref=e973]:
+          - paragraph [ref=e974]:
+            - text: daisyUI is
+            - mark [ref=e975]: the goat
+          - generic [ref=e976]:
+            - link "Dorian Develops" [ref=e978] [cursor=pointer]:
+              - /url: https://x.com/DorianDevelops/status/1870457561125900798
+            - generic [ref=e980]:
+              - generic [ref=e981]: Dorian Develops
+              - generic [ref=e982]: Self-Taught Programmer
+        - generic [ref=e984]:
+          - paragraph [ref=e985]: Adding daisyUI to the front and adding new features to the products really affect all of our metrics.
+          - generic [ref=e986]:
+            - link "Manuel Gracia" [ref=e988] [cursor=pointer]:
+              - /url: https://x.com/HiImg2html/status/1788477550269734950
+            - generic [ref=e990]:
+              - generic [ref=e991]: Manuel Gracia
+              - generic [ref=e992]: Developer
+        - generic [ref=e994]:
+          - paragraph [ref=e995]: I cannot thank you enough for daisyUI. It has completely taken over my UIs. It is a breeze to get consistent, great looking user interfaces and quickly!
+          - generic [ref=e996]:
+            - link "jogi" [ref=e998] [cursor=pointer]:
+              - /url: https://x.com/jogicodes/status/1765319705441513840
+            - generic [ref=e1000]:
+              - generic [ref=e1001]: jogi
+              - generic [ref=e1002]: Developer
+        - generic [ref=e1004]:
+          - paragraph [ref=e1005]: I like to use Tailwind+daisyUI to have a Bootstrap like experience.
+          - generic [ref=e1006]:
+            - link "Tiago Bastos" [ref=e1008] [cursor=pointer]:
+              - /url: https://x.com/bastos/status/1714691224219574424
+            - generic [ref=e1010]:
+              - generic [ref=e1011]: Tiago Bastos
+              - generic [ref=e1012]: Software developer
+        - generic [ref=e1014]:
+          - paragraph [ref=e1015]: I was using bootstrap first than switched to tailwind but there's so many classes too much code, than i found daisyUI. if anyone coming from bootstrapcss background you will love daisyUI for sure. 🙌
+          - generic [ref=e1016]:
+            - link "Jagdish kashyap" [ref=e1018] [cursor=pointer]:
+              - /url: https://x.com/Jagdish1O1/status/1709060061790945349
+            - generic [ref=e1020]:
+              - generic [ref=e1021]: Jagdish kashyap
+              - generic [ref=e1022]: Software developer
+        - generic [ref=e1024]:
+          - paragraph [ref=e1025]:
+            - text: daisyUI is a great project! Grabbed the file tree component, it works great and
+            - mark [ref=e1026]: doesn't even use JS
+            - text: "- it's just using summary and details elements, very neat!"
+          - generic [ref=e1027]:
+            - link "Lachlan Miller" [ref=e1029] [cursor=pointer]:
+              - /url: https://x.com/Lachlan19900/status/1759385224360890671
+            - generic [ref=e1031]:
+              - generic [ref=e1032]: Lachlan Miller
+              - generic [ref=e1033]: Vue.js team
+        - generic [ref=e1035]:
+          - paragraph [ref=e1036]: I would have never touched Tailwind CSS if it wasn't for daisyUI 🤗
+          - generic [ref=e1037]:
+            - link "lang" [ref=e1039] [cursor=pointer]:
+              - /url: https://x.com/mgilangjanuar/status/1707143402494873936
+            - generic [ref=e1041]:
+              - generic [ref=e1042]: lang
+              - generic [ref=e1043]: Software developer
+        - generic [ref=e1045]:
+          - paragraph [ref=e1046]: Writing technical blog posts and I just use daisyUI for styling and then I have a ton of free time 🌟
+          - generic [ref=e1047]:
+            - link "Lac Tran An" [ref=e1049] [cursor=pointer]:
+              - /url: https://x.com/LacTranAn/status/1897101545499750630
+            - generic [ref=e1051]:
+              - generic [ref=e1052]: Lac Tran An
+              - generic [ref=e1053]: Software craftman
+        - generic [ref=e1055]:
+          - paragraph [ref=e1056]: The new daisyUI 5.0 is awesome! The UI components are smooth and has a lot of new goodies.
+          - generic [ref=e1057]:
+            - link "Ovi Stoica" [ref=e1059] [cursor=pointer]:
+              - /url: https://x.com/ovstoica/status/1899737540439253128
+            - generic [ref=e1061]:
+              - generic [ref=e1062]: Ovi Stoica
+              - generic [ref=e1063]: Software Developer
+        - generic [ref=e1065]:
+          - paragraph [ref=e1066]: I found Tailwind CSS complicated, but daisyUI looks like something I can give a try.
+          - generic [ref=e1067]:
+            - link "Bonnie" [ref=e1069] [cursor=pointer]:
+              - /url: https://x.com/The_GreatBonnie/status/1500904082466295810
+            - generic [ref=e1071]:
+              - generic [ref=e1072]: Bonnie
+              - generic [ref=e1073]: Technical Writer
+        - generic [ref=e1075]:
+          - paragraph [ref=e1076]: Been a big fan on daisyUI for 2 years, kudos to your great work! 👏👏
+          - generic [ref=e1077]:
+            - link "Kenn Ejima" [ref=e1079] [cursor=pointer]:
+              - /url: https://x.com/kenn/status/1878037793353707886
+            - generic [ref=e1081]:
+              - generic [ref=e1082]: Kenn Ejima
+              - generic [ref=e1083]: Co-Founder & CTO
+        - generic [ref=e1085]:
+          - paragraph [ref=e1086]:
+            - text: Found the power of tailwindcss and daisyUI these last few days. These makes front-end development so much
+            - mark [ref=e1087]: faster and enjoyable
+            - text: .
+          - generic [ref=e1088]:
+            - link "Lourenço Matalonga" [ref=e1090] [cursor=pointer]:
+              - /url: https://x.com/Lou_Matalonga/status/1894847690548064573
+            - generic [ref=e1092]:
+              - generic [ref=e1093]: Lourenço Matalonga
+              - generic [ref=e1094]: Developer, Indie Hacker
+        - generic [ref=e1096]:
+          - paragraph [ref=e1097]: With daisyUI I haven't written a single line of css, yet my div classes are pretty clean
+          - generic [ref=e1098]:
+            - link "Bogdan Chayka" [ref=e1100] [cursor=pointer]:
+              - /url: https://x.com/ChaykaBogdan/status/1861457237786665268
+            - generic [ref=e1102]:
+              - generic [ref=e1103]: Bogdan Chayka
+              - generic [ref=e1104]: Founder
+        - generic [ref=e1106]:
+          - paragraph [ref=e1107]: Damn, daisyUI is NICE!
+          - generic [ref=e1108]:
+            - link "Dorian Develops" [ref=e1110] [cursor=pointer]:
+              - /url: https://x.com/DorianDevelops/status/1771033378877501762
+            - generic [ref=e1112]:
+              - generic [ref=e1113]: Dorian Develops
+              - generic [ref=e1114]: Indie hacker
+        - generic [ref=e1116]:
+          - paragraph [ref=e1117]: Honestly, I spent like 20% of my time writing code and 80% of time playing with Tailwind CSS and daisyUI. Really love the daisyUI themes 😍
+          - generic [ref=e1118]:
+            - link "Jiří Kratochvíl" [ref=e1120] [cursor=pointer]:
+              - /url: https://x.com/SedRicKCZ/status/1636132972142161927
+            - generic [ref=e1122]:
+              - generic [ref=e1123]: Jiří Kratochvíl
+              - generic [ref=e1124]: vuejs.berlin co-organizer
+        - generic [ref=e1126]:
+          - paragraph [ref=e1127]:
+            - text: daisyUI is a
+            - mark [ref=e1128]: joy to use
+            - text: 🙏
+          - generic [ref=e1129]:
+            - link "Oli Nelson" [ref=e1131] [cursor=pointer]:
+              - /url: https://x.com/o_j_nelson/status/1895644145961799775
+            - generic [ref=e1133]:
+              - generic [ref=e1134]: Oli Nelson
+              - generic [ref=e1135]: Indie Software Dev
+        - generic [ref=e1137]:
+          - paragraph [ref=e1138]:
+            - text: daisyUI is
+            - mark [ref=e1139]: so usefull
+            - text: . My clients love the look, it is so easy
+          - generic [ref=e1140]:
+            - link "Bailey Burnsed" [ref=e1142] [cursor=pointer]:
+              - /url: https://x.com/baileyburnsed/status/1873774608547246239
+            - generic [ref=e1144]:
+              - generic [ref=e1145]: Bailey Burnsed
+              - generic [ref=e1146]: Full Stack Dev
+        - generic [ref=e1148]:
+          - paragraph [ref=e1149]:
+            - mark [ref=e1150]: daisyUI is underrated.
+            - text: The best mix of Bootstrap (semantic) + Tailwind (utility). Just pick your colors and go. Supports most common components. Now with Tailwind v4. Theme builder. Quick adjustment with Tailwind.
+            - mark [ref=e1151]: CSS only and no JS. Zero dependencies.
+            - text: DHH's "No build" friendly.
+          - generic [ref=e1152]:
+            - link "Kenn Ejima" [ref=e1154] [cursor=pointer]:
+              - /url: https://x.com/kenn/status/1895956306651201605
+            - generic [ref=e1156]:
+              - generic [ref=e1157]: Kenn Ejima
+              - generic [ref=e1158]: Co-Founder & CTO
+        - generic [ref=e1160]:
+          - paragraph [ref=e1161]: I used daisyUI this week with Remix and am delighted by it so far.
+          - generic [ref=e1162]:
+            - link "Matt Ferrante" [ref=e1164] [cursor=pointer]:
+              - /url: https://x.com/ferrants/status/1789492854123082124
+            - generic [ref=e1166]:
+              - generic [ref=e1167]: Matt Ferrante
+              - generic [ref=e1168]: Developer
+        - generic [ref=e1170]:
+          - paragraph [ref=e1171]: daisyUI 5 + Tailwind CSS 4 is just an amazing combo for fast and high-end results
+          - generic [ref=e1172]:
+            - link "Nacho Herrera" [ref=e1174] [cursor=pointer]:
+              - /url: https://x.com/bitsofnacho/status/1875195239025230182
+            - generic [ref=e1176]:
+              - generic [ref=e1177]: Nacho Herrera
+              - generic [ref=e1178]: Developer
+        - generic [ref=e1180]:
+          - paragraph [ref=e1181]: If you're a fan of Tailwind but hate writing 20+ class names to style a simple button or card, try daisyUI, it's really cool!
+          - generic [ref=e1182]:
+            - link "AbdulAzeez" [ref=e1184] [cursor=pointer]:
+              - /url: https://x.com/dev_azeez/status/1896193358097535350
+            - generic [ref=e1186]:
+              - generic [ref=e1187]: AbdulAzeez
+              - generic [ref=e1188]: Software Developer
+        - generic [ref=e1190]:
+          - paragraph [ref=e1191]: If you use Tailwind and want prepackaged components then I wholeheartedly recommend daisyUI! An awesome set of defaults that's super configurable 🔥
+          - generic [ref=e1192]:
+            - link "Scott Spence" [ref=e1194] [cursor=pointer]:
+              - /url: https://x.com/spences10/status/1613920221240213504
+            - generic [ref=e1196]:
+              - generic [ref=e1197]: Scott Spence
+              - generic [ref=e1198]: SvelteSociety London events organiser
+        - generic [ref=e1200]:
+          - paragraph [ref=e1201]:
+            - mark [ref=e1202]: daisyUI saved me months of component design
+            - text: .
+          - generic [ref=e1203]:
+            - link "Erick Rodriguez" [ref=e1205] [cursor=pointer]:
+              - /url: https://x.com/ErickRodrCodes/status/1787693390756221027
+            - generic [ref=e1207]:
+              - generic [ref=e1208]: Erick Rodriguez
+              - generic [ref=e1209]: Software Engineer
+        - generic [ref=e1211]:
+          - paragraph [ref=e1212]: How much winning can one component library take?!?
+          - generic [ref=e1213]:
+            - link "htmx.org" [ref=e1215] [cursor=pointer]:
+              - /url: https://x.com/htmx_org/status/1890763198153838966
+            - generic [ref=e1217]:
+              - generic [ref=e1218]: htmx.org
+              - generic [ref=e1219]: high power tools for HTML
+        - generic [ref=e1221]:
+          - paragraph [ref=e1222]: It's great! Been using it in all my projects!
+          - generic [ref=e1223]:
+            - link "Sara Vieira" [ref=e1225] [cursor=pointer]:
+              - /url: https://x.com/NikkitaFTW/status/1620481690148929538
+            - generic [ref=e1227]:
+              - generic [ref=e1228]: Sara Vieira
+              - generic [ref=e1229]: Developer at axo.dev
+        - generic [ref=e1231]:
+          - paragraph [ref=e1232]:
+            - text: daisyUI is probably the
+            - mark [ref=e1233]: best Tailwind Plugin I've ever used
+            - text: ", I've been using it since 2023"
+          - generic [ref=e1234]:
+            - link "Shaun Furtado" [ref=e1236] [cursor=pointer]:
+              - /url: https://x.com/shaun_furtado/status/1899887103947014379
+            - generic [ref=e1238]:
+              - generic [ref=e1239]: Shaun Furtado
+              - generic [ref=e1240]: JS dev
+        - generic [ref=e1242]:
+          - paragraph [ref=e1243]: daisyUI is the missing part from Tailwind CSS which is the perfect choice for devs who need easy UI design
+          - generic [ref=e1244]:
+            - link "Mahdi M" [ref=e1246] [cursor=pointer]:
+              - /url: https://x.com/mahdix/status/1783929031412363684
+            - generic [ref=e1248]:
+              - generic [ref=e1249]: Mahdi M
+              - generic [ref=e1250]: Software developer
+        - generic [ref=e1252]:
+          - paragraph [ref=e1253]: daisyUI has been my "go-to" for side projects and vibe coding for this past year
+          - generic [ref=e1254]:
+            - link "Joro Yordanov" [ref=e1256] [cursor=pointer]:
+              - /url: https://x.com/yordanoff/status/1896134929194598571
+            - generic [ref=e1258]:
+              - generic [ref=e1259]: Joro Yordanov
+              - generic [ref=e1260]: Designer
+      - generic [ref=e1261]:
+        - generic [ref=e1262]:
+          - generic [ref=e1264]:
+            - img "daisyUI logo"
+          - heading "Free and open-source Built by the community" [level=2] [ref=e1266]:
+            - text: Free and open-source
+            - text: Built by the community
+          - paragraph [ref=e1268]:
+            - link "daisyUI welcomes contributions from developers around the world" [ref=e1269] [cursor=pointer]:
+              - /url: https://github.com/saadeghi/daisyui/blob/master/.github/CONTRIBUTING.md
+          - generic [ref=e1271]:
+            - generic [ref=e1272]: saadeghi
+            - generic [ref=e1274]: pdanpdan
+            - generic [ref=e1276]: sulimanbenhalim
+            - generic [ref=e1278]: withden
+            - generic [ref=e1280]: AbhijeetBiswal
+            - generic [ref=e1282]: Avaray
+            - generic [ref=e1284]: yoshi6jp
+            - generic [ref=e1286]: aforcada
+            - generic [ref=e1288]: DaviDevMod
+            - generic [ref=e1290]: SanmayJoshi
+            - generic [ref=e1292]: Nekxio
+            - generic [ref=e1294]: gurgunday
+            - generic [ref=e1296]: 5idereal
+            - generic [ref=e1298]: vadimkiryanov
+            - generic [ref=e1300]: Mashiane
+            - generic [ref=e1302]: suasgn
+            - generic [ref=e1304]: jofftiquez
+            - generic [ref=e1306]: Flo0807
+            - generic [ref=e1308]: flomero
+            - generic [ref=e1310]: danawoodman
+            - generic [ref=e1312]: kumitatepazuru
+            - generic [ref=e1314]: nandi95
+            - generic [ref=e1316]: rtritto
+            - generic [ref=e1318]: souyang
+            - generic [ref=e1320]: dearDreamWeb
+            - generic [ref=e1322]: rinodrummer
+            - generic [ref=e1324]: TY235
+            - generic [ref=e1326]: skimhugo
+            - generic [ref=e1328]: NikarashiHatsu
+            - generic [ref=e1330]: oxcened
+            - generic [ref=e1332]: ThaddeusJiang
+            - generic [ref=e1334]: arashjafari
+            - generic [ref=e1336]: Aravin
+            - generic [ref=e1338]: mayerzx
+            - generic [ref=e1340]: megagames-me
+            - generic [ref=e1342]: velut
+            - generic [ref=e1344]: ermesonqueiroz
+            - generic [ref=e1346]: hrstmr
+            - generic [ref=e1348]: binjuhor
+            - generic [ref=e1350]: corydalis10
+            - generic [ref=e1352]: Kenzo-Wada
+            - generic [ref=e1354]: jondoe297tt
+            - generic [ref=e1356]: classbinu
+            - generic [ref=e1358]: tmthyadms
+            - generic [ref=e1360]: kidonng
+            - generic [ref=e1362]: sinskiy
+            - generic [ref=e1364]: soorria
+            - generic [ref=e1366]: GaetanFrejoux
+            - generic [ref=e1368]: TheOnlyTails
+            - generic [ref=e1370]: LastxTemplar
+            - generic [ref=e1372]: seppe-dalen
+            - generic [ref=e1374]: scffs
+            - generic [ref=e1376]: seanpdoyle
+            - generic [ref=e1378]: sanathusk
+            - generic [ref=e1380]: spences10
+            - generic [ref=e1382]: noxasaxon
+            - generic [ref=e1384]: hellosatyajit
+            - generic [ref=e1386]: sarat1669
+            - generic [ref=e1388]: sanskar-mk2
+            - generic [ref=e1390]: StanvanHoorn
+            - generic [ref=e1392]: stphnyao
+            - generic [ref=e1394]: Supermarcel10
+            - generic [ref=e1396]: HappySven06
+            - generic [ref=e1398]: TLRKFXE
+            - generic [ref=e1400]: tkrotoff
+            - generic [ref=e1402]: nocnokneo
+            - generic [ref=e1404]: supratikmahato
+            - generic [ref=e1406]: TheOnlyWayUp
+            - generic [ref=e1408]: tojaprice
+            - generic [ref=e1410]: Tony-Truand
+            - generic [ref=e1412]: topherfangio
+            - generic [ref=e1414]: TreyRuffy
+            - generic [ref=e1416]: tdgao
+            - generic [ref=e1418]: max-programming
+            - generic [ref=e1420]: NullVoxPopuli
+            - generic [ref=e1422]: nmferraz
+            - generic [ref=e1424]: kuboon
+            - generic [ref=e1426]: OmkarOza
+            - generic [ref=e1428]: PabloRuizCuevas
+            - generic [ref=e1430]: PaulProjects
+            - generic [ref=e1432]: figureone
+            - generic [ref=e1434]: pavliukpetro
+            - generic [ref=e1436]: PetrelPine
+            - generic [ref=e1438]: pierskarsenbarg
+            - generic [ref=e1440]: horberlan
+            - generic [ref=e1442]: 81reap
+            - generic [ref=e1444]: princecodes247
+            - generic [ref=e1446]: prijindal
+            - generic [ref=e1448]: PruthviPraj00
+            - generic [ref=e1450]: vnphanquang
+            - generic [ref=e1452]: quentinderoubaix
+            - generic [ref=e1454]: RahulDey12
+            - generic [ref=e1456]: rnestler
+            - generic [ref=e1458]: shoen1x
+            - generic [ref=e1460]: rstrand
+            - generic [ref=e1462]: rich-info
+            - generic [ref=e1464]: rikgirbes
+            - generic [ref=e1466]: robbertvancaem
+            - generic [ref=e1468]: Acccent
+            - generic [ref=e1470]: "0x524c"
+            - generic [ref=e1472]: Haarolean
+            - generic [ref=e1474]: rushikesh456thorat
+            - generic [ref=e1476]: ryoppippi
+            - generic [ref=e1478]: rozsazoltan
+            - generic [ref=e1480]: SHUAXINDIARY
+            - generic [ref=e1482]: zoghal
+            - generic [ref=e1484]: hoshico
+            - generic [ref=e1486]: hyjklmn
+            - generic [ref=e1488]: imanmalekian31
+            - generic [ref=e1490]: jodylecompte
+            - generic [ref=e1492]: juliajshi
+            - generic [ref=e1494]: likuny0415
+            - generic [ref=e1496]: madhavkabra730
+            - generic [ref=e1498]: mahdihrs
+            - generic [ref=e1500]: matt-sanders
+            - generic [ref=e1502]: Mr-Mosio
+            - generic [ref=e1504]: munenari
+            - generic [ref=e1506]: nakayama900
+            - generic [ref=e1508]: netonion
+            - generic [ref=e1510]: PBnicad
+            - generic [ref=e1512]: debugtheworldbot
+            - generic [ref=e1514]: rizzrark
+            - generic [ref=e1516]: roiLeo
+            - generic [ref=e1518]: sfinktah
+            - generic [ref=e1520]: shixianqin
+            - generic [ref=e1522]: sinjs
+            - generic [ref=e1524]: souhaib-benbouzid
+            - generic [ref=e1526]: steve02081504
+            - generic [ref=e1528]: suannaizhu
+            - generic [ref=e1530]: swotex
+            - generic [ref=e1532]: tamagoez
+            - generic [ref=e1534]: txfs19260817
+            - generic [ref=e1536]: unvalley
+            - generic [ref=e1538]: wiseguy1394
+            - generic [ref=e1540]: yamakan0317
+            - generic [ref=e1542]: zelnojam
+            - generic [ref=e1544]: rerelurelu
+            - generic [ref=e1546]: kwaa
+            - generic [ref=e1548]: szepeviktor
+            - generic [ref=e1550]: zwlcoding
+            - generic [ref=e1552]: Wenish
+            - generic [ref=e1554]: williamjallen
+            - generic [ref=e1556]: willtcarey
+            - generic [ref=e1558]: TheWilley
+            - generic [ref=e1560]: willin
+            - generic [ref=e1562]: WuMingDao
+            - generic [ref=e1564]: yagnikvamja
+            - generic [ref=e1566]: nyash04
+            - generic [ref=e1568]: Yeom-JinHo
+            - generic [ref=e1570]: zirho
+            - generic [ref=e1572]: youzarsiph
+            - generic [ref=e1574]: yug1224
+            - generic [ref=e1576]: SisyphusZheng
+            - generic [ref=e1578]: bernardoamorim7
+            - generic [ref=e1580]: bluejoyq
+            - generic [ref=e1582]: carovilla
+            - generic [ref=e1584]: carrot-png
+            - generic [ref=e1586]: chazzox
+            - generic [ref=e1588]: cohu-dev
+            - generic [ref=e1590]: core-hacked
+            - generic [ref=e1592]: cryptodeal
+            - generic [ref=e1594]: d2orbc
+            - generic [ref=e1596]: daief
+            - generic [ref=e1598]: djl997
+            - generic [ref=e1600]: meritozh
+            - generic [ref=e1602]: actions-user
+            - generic [ref=e1604]: gjvalenz
+            - generic [ref=e1606]: hajamie
+            - generic [ref=e1608]: eggplants
+            - generic [ref=e1610]: hemingtsai
+            - generic [ref=e1612]: "0x0a0d"
+            - generic [ref=e1614]: brunocalou
+            - generic [ref=e1616]: vintagesquid
+            - generic [ref=e1618]: castroalves
+            - generic [ref=e1620]: camslice
+            - generic [ref=e1622]: cslcdr
+            - generic [ref=e1624]: kcherki
+            - generic [ref=e1626]: ChristianAlexander
+            - generic [ref=e1628]: cwray-tech
+            - generic [ref=e1630]: claytonfaria
+            - generic [ref=e1632]: acoreyj
+            - generic [ref=e1634]: orbiteleven
+            - generic [ref=e1636]: koolskateguy89
+            - generic [ref=e1638]: cheekEprogrammer
+            - generic [ref=e1640]: BlueBles
+            - generic [ref=e1642]: Denisskas
+            - generic [ref=e1644]: StaticFX
+            - generic [ref=e1646]: WickedInvi
+            - generic [ref=e1648]: DimitarDevP
+            - generic [ref=e1650]: tronikelis
+            - generic [ref=e1652]: efehidir
+            - generic [ref=e1654]: eldenpw
+            - generic [ref=e1656]: bogus-bill
+            - generic [ref=e1658]: fabianmossberg
+            - generic [ref=e1660]: fahadhos
+            - generic [ref=e1662]: tatarianBarbarian
+            - generic [ref=e1664]: lipej
+            - generic [ref=e1666]: ffranchina
+            - generic [ref=e1668]: falvarador
+            - generic [ref=e1670]: Adrastopoulos
+            - generic [ref=e1672]: gwerneckp
+            - generic [ref=e1674]: gabrielesilinic
+            - generic [ref=e1676]: 2hu12
+            - generic [ref=e1678]: rem-aster
+            - generic [ref=e1680]: akx
+            - generic [ref=e1682]: abhijitdotsharma
+            - generic [ref=e1684]: abhishekkr
+            - generic [ref=e1686]: aeadedoyin
+            - generic [ref=e1688]: adiitiii
+            - generic [ref=e1690]: atresnjo
+            - generic [ref=e1692]: ahmadaccino
+            - generic [ref=e1694]: asportnoy
+            - generic [ref=e1696]: OxiJenuuu
+            - generic [ref=e1698]: AlexAlappsis
+            - generic [ref=e1700]: AmirHosseinKarimi
+            - generic [ref=e1702]: amirallami-code
+            - generic [ref=e1704]: amirsinaa
+            - generic [ref=e1706]: deining
+            - generic [ref=e1708]: angelmarfil
+            - generic [ref=e1710]: anton-gustafsson
+            - generic [ref=e1712]: antonio-hickey
+            - generic [ref=e1714]: ArthurMJ96
+            - generic [ref=e1716]: arunjagadishsd
+            - generic [ref=e1718]: gurbaxani
+            - generic [ref=e1720]: abh
+            - generic [ref=e1722]: Avensen
+            - generic [ref=e1724]: ameinhardt
+            - generic [ref=e1726]: AyanavaKarmakar
+            - generic [ref=e1728]: bastiaanv
+            - generic [ref=e1730]: bvanderdrift
+            - generic [ref=e1732]: bert-mccutchen
+            - generic [ref=e1734]: Bidyutmaji
+            - generic [ref=e1736]: brandonbondig
+            - generic [ref=e1738]: GaelLnz
+            - generic [ref=e1740]: levlavryniuk
+            - generic [ref=e1742]: lorenzolewis
+            - generic [ref=e1744]: Martini991
+            - generic [ref=e1746]: lucasra1
+            - generic [ref=e1748]: Frohus
+            - generic [ref=e1750]: lukababu
+            - generic [ref=e1752]: malkiii
+            - generic [ref=e1754]: mixmav
+            - generic [ref=e1756]: manuelernestog
+            - generic [ref=e1758]: hobbypunk90
+            - generic [ref=e1760]: Norgul
+            - generic [ref=e1762]: marshallswain
+            - generic [ref=e1764]: MatheusSaS
+            - generic [ref=e1766]: MMore
+            - generic [ref=e1768]: mecampbellsoup
+            - generic [ref=e1770]: maxfriedmann
+            - generic [ref=e1772]: mdsabbiralmamon
+            - generic [ref=e1774]: Medoo48
+            - generic [ref=e1776]: MentalGear
+            - generic [ref=e1778]: mikerhyssmith
+            - generic [ref=e1780]: itsmohmans
+            - generic [ref=e1782]: Mrahmani71
+            - generic [ref=e1784]: Bodyes26
+            - generic [ref=e1786]: knownasnaffy
+            - generic [ref=e1788]: NathanTe
+            - generic [ref=e1790]: nazaninreihani
+            - generic [ref=e1792]: nebojsatomic
+            - generic [ref=e1794]: maslomeister
+            - generic [ref=e1796]: NiklasBuchfink
+            - generic [ref=e1798]: NilsJacobsen
+            - generic [ref=e1800]: noahfraiture
+            - generic [ref=e1802]: GriceTurrble
+            - generic [ref=e1804]: dgmp88
+            - generic [ref=e1806]: gorango
+            - generic [ref=e1808]: mrhammadasif
+            - generic [ref=e1810]: hasanmumin
+            - generic [ref=e1812]: hemza-github
+            - generic [ref=e1814]: aglio
+            - generic [ref=e1816]: ismaelnt
+            - generic [ref=e1818]: whitetxt
+            - generic [ref=e1820]: jsdevspace
+            - generic [ref=e1822]: barnwell
+            - generic [ref=e1824]: sharknoon
+            - generic [ref=e1826]: joaopalmeiro
+            - generic [ref=e1828]: juhyeong-kim
+            - generic [ref=e1830]: JulienQNN
+            - generic [ref=e1832]: jcarrus
+            - generic [ref=e1834]: justinlettau
+            - generic [ref=e1836]: shiv-chan
+            - generic [ref=e1838]: Kasparsu
+            - generic [ref=e1840]: nak2k
+            - generic [ref=e1842]: kbsali
+            - generic [ref=e1844]: kirklin
+            - generic [ref=e1846]: mosquitobird11
+            - generic [ref=e1848]: outluch
+            - generic [ref=e1850]: KorvinSzanto
+            - generic [ref=e1852]: krsiakdaniel
+            - generic [ref=e1854]: kbilak
+            - generic [ref=e1856]: lts20050703
+            - generic [ref=e1858]: landon-thull
+            - generic [ref=e1860]: LehuyH
+            - generic [ref=e1862]: RealZone22
+        - generic [ref=e1865]:
+          - paragraph [ref=e1866]:
+            - link "Sponsors and backers" [ref=e1867] [cursor=pointer]:
+              - /url: https://github.com/saadeghi/daisyui?sponsor
+          - generic [ref=e1869]:
+            - generic [ref=e1870]: Pouya Saadeghi
+            - generic [ref=e1872]: Open Source Collective
+            - generic [ref=e1874]:
+              - text: Joris Kok
+              - generic [ref=e1875]: JK
+            - generic [ref=e1876]: ideaman's Inc.
+            - generic [ref=e1878]: Scott Spence
+            - generic [ref=e1880]: Stackbit
+            - generic [ref=e1882]:
+              - text: Handi Deyana
+              - generic [ref=e1883]: HD
+            - generic [ref=e1884]: Alessandro Giuzio
+            - generic [ref=e1886]: KayL
+            - generic [ref=e1888]:
+              - text: Steven Morell
+              - generic [ref=e1889]: SM
+            - generic [ref=e1890]:
+              - text: Alexis Kenshuri
+              - generic [ref=e1891]: AK
+            - generic [ref=e1892]: Hikaru Tooyama
+            - generic [ref=e1894]:
+              - text: HUBERT GUDAN
+              - generic [ref=e1895]: HG
+            - generic [ref=e1896]: DLTx Labs Pty Ltd
+            - generic [ref=e1898]: Igor Kasyanchuk
+            - generic [ref=e1900]: Christopher Heschong
+            - generic [ref=e1902]: MukurowZ
+            - generic [ref=e1904]:
+              - text: Lukáš Hátle
+              - generic [ref=e1905]: LH
+            - generic [ref=e1906]:
+              - text: Blanket
+              - generic [ref=e1907]: B
+            - generic [ref=e1908]:
+              - text: Tyler Adams
+              - generic [ref=e1909]: TA
+            - generic [ref=e1910]:
+              - text: Obinna Akahara
+              - generic [ref=e1911]: OA
+            - generic [ref=e1912]:
+              - text: Suraj Air
+              - generic [ref=e1913]: SA
+            - generic [ref=e1914]:
+              - text: Matthijs van Zetten
+              - generic [ref=e1915]: MZ
+            - generic [ref=e1916]:
+              - text: Kevin Pham
+              - generic [ref=e1917]: KP
+            - generic [ref=e1918]:
+              - text: jcseeco
+              - generic [ref=e1919]: j
+            - generic [ref=e1920]: Ishaan Bedi
+            - generic [ref=e1922]:
+              - text: Adam Slaker
+              - generic [ref=e1923]: AS
+            - generic [ref=e1924]: Sara Vieira
+            - generic [ref=e1926]:
+              - text: Thompson Edolo
+              - generic [ref=e1927]: TE
+            - generic [ref=e1928]:
+              - text: Jack Herrington
+              - generic [ref=e1929]: JH
+            - generic [ref=e1930]: Francesco
+            - generic [ref=e1932]:
+              - text: Guest
+              - generic [ref=e1933]: G
+            - generic [ref=e1934]:
+              - text: Michele Memoli
+              - generic [ref=e1935]: MM
+            - generic [ref=e1936]: TheSacredLipton
+            - generic [ref=e1938]:
+              - text: Ben
+              - generic [ref=e1939]: B
+            - generic [ref=e1940]:
+              - text: Michael
+              - generic [ref=e1941]: M
+            - generic [ref=e1942]:
+              - text: Max Barton
+              - generic [ref=e1943]: MB
+            - generic [ref=e1944]:
+              - text: shan8851
+              - generic [ref=e1945]: s
+            - generic [ref=e1946]:
+              - text: Anibe Agamah
+              - generic [ref=e1947]: AA
+            - generic [ref=e1948]:
+              - text: Matt
+              - generic [ref=e1949]: M
+            - generic [ref=e1950]: Juanelo
+            - generic [ref=e1952]:
+              - text: Cadu de Castro Alves
+              - generic [ref=e1953]: CA
+            - generic [ref=e1954]:
+              - text: Yves Hoppe
+              - generic [ref=e1955]: YH
+            - generic [ref=e1956]: JTorres
+            - generic [ref=e1958]:
+              - text: Jan T. Berg
+              - generic [ref=e1959]: JB
+            - generic [ref=e1960]:
+              - text: Dashron
+              - generic [ref=e1961]: D
+            - generic [ref=e1962]: Jamaluddin Rumi
+            - generic [ref=e1964]: BashSenpai
+            - generic [ref=e1966]: Tim Lange
+            - generic [ref=e1968]: Lindsey Simon
+            - generic [ref=e1970]: Ryo Sano
+            - generic [ref=e1972]:
+              - text: Schmell Mafeet
+              - generic [ref=e1973]: SM
+            - generic [ref=e1974]: Alien Jungle
+            - generic [ref=e1976]: Theo Gravity
+            - generic [ref=e1978]: Metehan
+            - generic [ref=e1980]: Appurist (Paul W)
+            - generic [ref=e1982]:
+              - text: Louis T. Getterman IV
+              - generic [ref=e1983]: LI
+            - generic [ref=e1984]: Michael Huggett
+            - generic [ref=e1986]:
+              - text: Adel
+              - generic [ref=e1987]: A
+            - generic [ref=e1988]: Ever Ruiz Diaz
+            - generic [ref=e1990]:
+              - text: Billy Clark
+              - generic [ref=e1991]: BC
+            - generic [ref=e1992]:
+              - text: Andrii Prykhodko
+              - generic [ref=e1993]: AP
+            - generic [ref=e1994]:
+              - text: Incognito
+              - generic [ref=e1995]: I
+            - generic [ref=e1996]:
+              - text: vpavlin
+              - generic [ref=e1997]: v
+            - generic [ref=e1998]:
+              - text: Amir
+              - generic [ref=e1999]: A
+            - generic [ref=e2000]:
+              - text: ZZ
+              - generic [ref=e2001]: Z
+            - generic [ref=e2002]: TonyTruand
+            - generic [ref=e2004]:
+              - text: Quan Tran
+              - generic [ref=e2005]: QT
+            - generic [ref=e2006]: Andrei Dyldin
+            - generic [ref=e2008]:
+              - text: Chaoran Chen
+              - generic [ref=e2009]: CC
+            - generic [ref=e2010]: Erick Gonzalez
+            - generic [ref=e2012]:
+              - text: Anele Mbanga
+              - generic [ref=e2013]: AM
+            - generic [ref=e2014]:
+              - text: Ivan
+              - generic [ref=e2015]: I
+            - generic [ref=e2016]: Baraa Al-Masri
+            - generic [ref=e2018]: Doras.to
+            - generic [ref=e2020]: Brian
+            - generic [ref=e2022]:
+              - text: Genry
+              - generic [ref=e2023]: G
+            - generic [ref=e2024]: Jean-Yves Couët
+            - generic [ref=e2026]:
+              - text: Hunter Meyer
+              - generic [ref=e2027]: HM
+            - generic [ref=e2028]: goern
+            - generic [ref=e2030]: Alexandre Ignjatovic
+            - generic [ref=e2032]:
+              - text: Remco
+              - generic [ref=e2033]: R
+            - generic [ref=e2034]:
+              - text: Colin Summers
+              - generic [ref=e2035]: CS
+            - generic [ref=e2036]:
+              - text: Make Nightcore
+              - generic [ref=e2037]: MN
+            - generic [ref=e2038]:
+              - text: Danny
+              - generic [ref=e2039]: D
+            - generic [ref=e2040]:
+              - text: Lucas
+              - generic [ref=e2041]: L
+            - generic [ref=e2042]:
+              - text: Daniel
+              - generic [ref=e2043]: D
+            - generic [ref=e2044]:
+              - text: Justice
+              - generic [ref=e2045]: J
+            - generic [ref=e2046]:
+              - text: Anaxy Jod
+              - generic [ref=e2047]: AJ
+            - generic [ref=e2048]:
+              - text: dddddd
+              - generic [ref=e2049]: d
+            - generic [ref=e2050]:
+              - text: Lucas Martin
+              - generic [ref=e2051]: LM
+            - generic [ref=e2052]:
+              - text: Nikolaos
+              - generic [ref=e2053]: "N"
+            - generic [ref=e2054]:
+              - text: Lisa
+              - generic [ref=e2055]: L
+            - generic [ref=e2056]:
+              - text: Abul Kalam
+              - generic [ref=e2057]: AK
+            - generic [ref=e2058]:
+              - text: Spyros
+              - generic [ref=e2059]: S
+            - generic [ref=e2060]:
+              - text: Alistair McLean
+              - generic [ref=e2061]: AM
+            - generic [ref=e2062]:
+              - text: Ryan
+              - generic [ref=e2063]: R
+            - generic [ref=e2064]:
+              - text: Colby Hemond
+              - generic [ref=e2065]: CH
+            - generic [ref=e2066]:
+              - text: Endrit
+              - generic [ref=e2067]: E
+            - generic [ref=e2068]:
+              - text: nacho
+              - generic [ref=e2069]: "n"
+            - generic [ref=e2070]: Christopher Kaster
+            - generic [ref=e2072]: Gianfranco Caschetto
+            - generic [ref=e2074]:
+              - text: Rise Radiant
+              - generic [ref=e2075]: RR
+            - generic [ref=e2076]: isKONSTANTIN
+            - generic [ref=e2078]: Sergei Petrov
+            - generic [ref=e2080]:
+              - text: Daniel Wernner
+              - generic [ref=e2081]: DW
+            - generic [ref=e2082]:
+              - text: Priemar
+              - generic [ref=e2083]: P
+            - generic [ref=e2084]:
+              - text: Karim
+              - generic [ref=e2085]: K
+            - generic [ref=e2086]: Mathéo Lesage
+            - generic [ref=e2088]:
+              - text: Mark
+              - generic [ref=e2089]: M
+            - generic [ref=e2090]: Aparajita Fishman
+            - generic [ref=e2092]:
+              - text: local.interloper
+              - generic [ref=e2093]: l
+            - generic [ref=e2094]:
+              - text: ohaas
+              - generic [ref=e2095]: o
+            - generic [ref=e2096]:
+              - text: AiAe
+              - generic [ref=e2097]: A
+            - generic [ref=e2098]:
+              - text: Steve Ruble
+              - generic [ref=e2099]: SR
+            - generic [ref=e2100]:
+              - text: https://citycenteronline.bet/
+              - generic [ref=e2101]: h
+            - generic [ref=e2102]:
+              - text: Trofim Samusev
+              - generic [ref=e2103]: TS
+            - generic [ref=e2104]: TypeQuicker
+            - generic [ref=e2106]:
+              - text: Mohan Paul
+              - generic [ref=e2107]: MP
+            - generic [ref=e2108]: Link
+            - generic [ref=e2110]:
+              - text: Arda Aksu
+              - generic [ref=e2111]: AA
+            - generic [ref=e2112]:
+              - text: yann
+              - generic [ref=e2113]: "y"
+            - generic [ref=e2114]: Diógenes Rodrigues
+            - generic [ref=e2116]: Peter Utekal
+            - generic [ref=e2118]: Andrew K
+            - generic [ref=e2120]: Burak Özdemir
+            - generic [ref=e2122]: Garry Lowther
+            - generic [ref=e2124]: Bakir Gracić
+            - generic [ref=e2126]: Zubair Ibn Zamir
+            - generic [ref=e2128]: Joff Tiquez
+            - generic [ref=e2130]: Christophe Anfry
+            - generic [ref=e2132]: Tanguy Krotoff
+            - generic [ref=e2134]: CMS Max
+            - generic [ref=e2136]: Tricked
+            - generic [ref=e2138]: Spencer Ferris
+            - generic [ref=e2140]: grim
+            - generic [ref=e2142]: thanks.dev
+            - generic [ref=e2144]: Abduul
+            - generic [ref=e2146]: Strelix
+            - generic [ref=e2148]: VietYorgo
+            - generic [ref=e2150]: levinit
+            - generic [ref=e2152]: Zane
+            - generic [ref=e2154]: Zoran Pesic
+            - generic [ref=e2156]: Charles Burgess
+            - generic [ref=e2158]: 陈杨文
+            - generic [ref=e2160]: Roman Zabaluev
+            - generic [ref=e2162]: Lachlan Collins
+            - generic [ref=e2164]: Alan Mendelevich
+            - generic [ref=e2166]: Topher Fangio
+          - link "Become a sponsor" [ref=e2168] [cursor=pointer]:
+            - /url: https://github.com/saadeghi/daisyui?sponsor
+            - img [ref=e2169]
+            - text: Become a sponsor
+      - generic [ref=e2173]:
+        - heading "Try daisyUI on your favorite framework" [level=2] [ref=e2174]:
+          - text: Try daisyUI
+          - text: on your favorite framework
+        - generic:
+          - img "daisyUI svelte"
+          - img "daisyUI vue"
+          - img "daisyUI react"
+          - img "daisyUI solidjs"
+          - img "daisyUI rails"
+          - img "daisyUI preact"
+          - img "daisyUI angular"
+          - img "daisyUI astro"
+          - img "daisyUI qwik"
+          - img "daisyUI nextjs"
+          - img "daisyUI nuxtjs"
+          - img "daisyUI laravel"
+          - img "daisyUI phoenix"
+          - img "daisyUI vite"
+        - link "See all examples" [ref=e2178] [cursor=pointer]:
+          - /url: /docs/install/
+        - generic [ref=e2180]:
+          - generic [ref=e2181]: "Or play with daisyUI on:"
+          - link "CodePen" [ref=e2182] [cursor=pointer]:
+            - /url: /codepen/
+            - img [ref=e2183]
+            - text: CodePen
+          - link "Tailwind Play" [ref=e2185] [cursor=pointer]:
+            - /url: /tailwindplay/
+            - img [ref=e2186]
+            - text: Tailwind Play
+      - generic [ref=e2191]:
+        - heading "Install daisyUI" [level=2] [ref=e2192]
+        - generic [ref=e2193]:
+          - paragraph [ref=e2194]: "1. Install daisyUI as a Node package:"
+          - generic [ref=e2195]:
+            - generic [ref=e2196] [cursor=pointer]:
+              - radio "NPM" [checked] [ref=e2197]
+              - img [ref=e2198]
+              - text: NPM
+            - generic [ref=e2201]:
+              - generic [ref=e2203]:
+                - text: copy
+                - button "Copy to clipboard" [ref=e2204] [cursor=pointer]:
+                  - img [ref=e2205]
+              - code [ref=e2208]: npm i -D daisyui@latest
+            - generic [ref=e2209] [cursor=pointer]:
+              - radio "PNPM" [ref=e2210]
+              - img [ref=e2211]
+              - text: PNPM
+            - text: copy
+            - generic [ref=e2220] [cursor=pointer]:
+              - radio "Yarn" [ref=e2221]
+              - img [ref=e2222]
+              - text: Yarn
+            - text: copy
+            - generic [ref=e2225] [cursor=pointer]:
+              - radio "Bun" [ref=e2226]
+              - img [ref=e2227]
+              - text: Bun
+            - text: copy
+            - generic [ref=e2237] [cursor=pointer]:
+              - radio "Deno" [ref=e2238]
+              - img [ref=e2239]
+              - text: Deno
+            - text: copy
+          - paragraph [ref=e2242]: "2. Add daisyUI to app.css:"
+          - generic [ref=e2244]:
+            - radio "app.css" [checked] [ref=e2245] [cursor=pointer]
+            - generic [ref=e2246]:
+              - code [ref=e2248]: "@import \"tailwindcss\"; @plugin \"daisyui\";"
+              - generic [ref=e2250]:
+                - text: copy
+                - button "Copy to clipboard" [ref=e2251] [cursor=pointer]:
+                  - img [ref=e2252]
+          - link "Install guide" [ref=e2254] [cursor=pointer]:
+            - /url: /docs/install/
+      - generic [ref=e2256]:
+        - contentinfo [ref=e2258]:
+          - generic [ref=e2259]:
+            - link "daisyUI" [ref=e2261] [cursor=pointer]:
+              - /url: /
+              - img "daisyUI logo" [ref=e2262]:
+                - img "daisyUI logomark" [ref=e2263]
+                - img "daisyUI logotype" [ref=e2307]
+            - paragraph [ref=e2315]:
+              - text: Free Component library
+              - text: For utility first CSS frameworks
+            - generic [ref=e2316]:
+              - link "GitHub" [ref=e2317] [cursor=pointer]:
+                - /url: https://github.com/saadeghi/daisyui
+                - img "GitHub" [ref=e2318]
+              - link "Discord" [ref=e2321] [cursor=pointer]:
+                - /url: https://daisyui.com/discord/
+                - img "Discord" [ref=e2322]
+              - link "OpenCollective" [ref=e2328] [cursor=pointer]:
+                - /url: https://opencollective.com/daisyui
+                - img "OpenCollective" [ref=e2329]
+              - link "NPM" [ref=e2332] [cursor=pointer]:
+                - /url: https://www.npmjs.com/package/daisyui
+                - img "NPM" [ref=e2333]
+              - link "X" [ref=e2336] [cursor=pointer]:
+                - /url: https://x.com/daisyui_
+                - img [ref=e2337]
+              - link "Unpkg CDN" [ref=e2339] [cursor=pointer]:
+                - /url: https://unpkg.com/browse/daisyui/
+                - img "Unpkg CDN" [ref=e2340]
+              - link "JSdeliver CDN" [ref=e2342] [cursor=pointer]:
+                - /url: https://www.jsdelivr.com/package/npm/daisyui
+                - img "JSdeliver CDN" [ref=e2343]
+              - link "StackBlitz" [ref=e2345] [cursor=pointer]:
+                - /url: /stackblitz/
+                - img "StackBlitz" [ref=e2346]
+              - link "CodePen" [ref=e2348] [cursor=pointer]:
+                - /url: /codepen/
+                - img "CodePen" [ref=e2349]
+              - link "Tailwind Play" [ref=e2352] [cursor=pointer]:
+                - /url: /tailwindplay/
+                - img "Tailwind Play" [ref=e2353]
+            - link "daisyUI Logo and brand" [ref=e2356] [cursor=pointer]:
+              - /url: /brand/
+            - link "License" [ref=e2357] [cursor=pointer]:
+              - /url: https://github.com/saadeghi/daisyui/blob/master/LICENSE
+              - text: License
+              - img [ref=e2358]
+            - link "FAQ" [ref=e2360] [cursor=pointer]:
+              - /url: /docs/faq/
+            - link "Roadmap" [ref=e2361] [cursor=pointer]:
+              - /url: /docs/roadmap/
+            - link "Changelog" [ref=e2362] [cursor=pointer]:
+              - /url: /docs/changelog/
+            - link "Contributing" [ref=e2363] [cursor=pointer]:
+              - /url: https://github.com/saadeghi/daisyui/blob/master/.github/CONTRIBUTING.md
+              - text: Contributing
+              - img [ref=e2364]
+            - link "llms.txt" [ref=e2366] [cursor=pointer]:
+              - /url: /llms.txt
+              - text: llms.txt
+              - img [ref=e2367]
+          - generic [ref=e2369]:
+            - generic [ref=e2370]: pages
+            - link "How to install" [ref=e2371] [cursor=pointer]:
+              - /url: /docs/install/
+            - link "How to use components" [ref=e2372] [cursor=pointer]:
+              - /url: /docs/use/
+            - link "How to customize" [ref=e2373] [cursor=pointer]:
+              - /url: /docs/customize/
+            - link "How to use themes" [ref=e2374] [cursor=pointer]:
+              - /url: /docs/themes/
+            - link "Color system" [ref=e2375] [cursor=pointer]:
+              - /url: /docs/colors/
+            - link "Config" [ref=e2376] [cursor=pointer]:
+              - /url: /docs/config/
+            - link "Resources" [ref=e2377] [cursor=pointer]:
+              - /url: /resources/
+            - link "Blog" [ref=e2378] [cursor=pointer]:
+              - /url: /blog/
+            - link "Store" [ref=e2379] [cursor=pointer]:
+              - /url: /store/
+            - link "daisyUI Figma Library" [ref=e2380] [cursor=pointer]:
+              - /url: /store/daisyui-figma-library/
+          - generic [ref=e2381]:
+            - generic [ref=e2382]: Frameworks
+            - link "Angular Component Library" [ref=e2383] [cursor=pointer]:
+              - /url: /angular-component-library/
+            - link "Astro Component Library" [ref=e2384] [cursor=pointer]:
+              - /url: /astro-component-library/
+            - link "Django Component Library" [ref=e2385] [cursor=pointer]:
+              - /url: /django-component-library/
+            - link "HTMX Component Library" [ref=e2386] [cursor=pointer]:
+              - /url: /htmx-component-library/
+            - link "Laravel Component Library" [ref=e2387] [cursor=pointer]:
+              - /url: /laravel-component-library/
+            - link "Nextjs Component Library" [ref=e2388] [cursor=pointer]:
+              - /url: /nextjs-component-library/
+            - link "Nuxt Component Library" [ref=e2389] [cursor=pointer]:
+              - /url: /nuxt-component-library/
+            - link "Rails Component Library" [ref=e2390] [cursor=pointer]:
+              - /url: /rails-component-library/
+            - link "React Component Library" [ref=e2391] [cursor=pointer]:
+              - /url: /react-component-library/
+            - link "Svelte Component Library" [ref=e2392] [cursor=pointer]:
+              - /url: /svelte-component-library/
+            - link "Vue Component Library" [ref=e2393] [cursor=pointer]:
+              - /url: /vue-component-library/
+          - generic [ref=e2394]:
+            - generic [ref=e2395]: Compare libraries
+            - link "MUI vs daisyUI" [ref=e2396] [cursor=pointer]:
+              - /url: /compare/mui-vs-daisyui/
+            - link "shadcn/ui vs daisyUI" [ref=e2397] [cursor=pointer]:
+              - /url: /compare/shadcn-vs-daisyui/
+            - link "Bootstrap vs daisyUI" [ref=e2398] [cursor=pointer]:
+              - /url: /compare/bootstrap-vs-daisyui/
+            - link "Flowbite vs daisyUI" [ref=e2399] [cursor=pointer]:
+              - /url: /compare/flowbite-vs-daisyui/
+            - link "Radix vs daisyUI" [ref=e2400] [cursor=pointer]:
+              - /url: /compare/radix-vs-daisyui/
+            - link "Bulma vs daisyUI" [ref=e2401] [cursor=pointer]:
+              - /url: /compare/bulma-vs-daisyui/
+            - link "NuxtUI vs daisyUI" [ref=e2402] [cursor=pointer]:
+              - /url: /compare/nuxtui-vs-daisyui/
+            - link "HeroUI vs daisyUI" [ref=e2403] [cursor=pointer]:
+              - /url: /compare/heroui-vs-daisyui/
+            - link "Preline UI vs daisyUI" [ref=e2404] [cursor=pointer]:
+              - /url: /compare/preline-vs-daisyui/
+            - link "Chakra UI vs daisyUI" [ref=e2405] [cursor=pointer]:
+              - /url: /compare/chakra-vs-daisyui/
+          - generic [ref=e2406]:
+            - generic [ref=e2407]: related projects
+            - link "Theme Change" [ref=e2408] [cursor=pointer]:
+              - /url: https://github.com/saadeghi/theme-change
+              - text: Theme Change
+              - img [ref=e2409]
+            - link "MaryUI (Laravel)" [ref=e2411] [cursor=pointer]:
+              - /url: https://mary-ui.com/
+              - text: MaryUI (Laravel)
+              - img [ref=e2412]
+            - link "Feliz.DaisyUI (F#)" [ref=e2414] [cursor=pointer]:
+              - /url: https://github.com/Dzoukr/Feliz.DaisyUI
+              - text: Feliz.DaisyUI (F#)
+              - img [ref=e2415]
+            - link "Phcurado (Phoenix)" [ref=e2417] [cursor=pointer]:
+              - /url: https://github.com/phcurado/daisy_ui_components
+              - text: Phcurado (Phoenix)
+              - img [ref=e2418]
+            - link "Laravel Starter Kit" [ref=e2420] [cursor=pointer]:
+              - /url: https://github.com/aalaap/laravel-livewire-daisyui-starter-kit
+              - text: Laravel Starter Kit
+              - img [ref=e2421]
+            - link "Tailscan extension" [ref=e2423] [cursor=pointer]:
+              - /url: https://tailscan.com/?ref=daisyui
+              - text: Tailscan extension
+              - img [ref=e2424]
+        - contentinfo [ref=e2426]:
+          - generic [ref=e2427]:
+            - link "Pouya Saadeghi Created by Pouya Saadeghi" [ref=e2428] [cursor=pointer]:
+              - /url: https://x.com/saadeghi
+              - img "Pouya Saadeghi" [ref=e2431]
+              - generic [ref=e2432]:
+                - paragraph [ref=e2433]: Created by
+                - paragraph [ref=e2434]: Pouya Saadeghi
+            - generic [ref=e2436]:
+              - paragraph [ref=e2437]: Get the daisyUI updates and news
+              - generic [ref=e2438]:
+                - textbox "email@site.com" [ref=e2439]
+                - button "Subscribe" [ref=e2440] [cursor=pointer]
+              - paragraph [ref=e2441]:
+                - img [ref=e2442]
+                - text: We don't share your email address with anyone
+```

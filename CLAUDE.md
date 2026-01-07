@@ -97,6 +97,21 @@ src/
 - Keep components focused on single responsibility
 - Section components should be self-contained with their own content
 
+## CSS and Styling Rules
+
+**TailwindCSS Required**:
+- Always use TailwindCSS for all CSS modifications
+- Use Context7 (`mcp__context7__query-docs`) to get up-to-date TailwindCSS v4 documentation before making styling changes
+- Prefer Tailwind utility classes over custom CSS
+- Use TailwindCSS v4 canonical class names (e.g., `shrink-0` instead of `flex-shrink-0`, `bg-linear-to-br` instead of `bg-gradient-to-br`)
+
+**Icons**:
+- Always use Lucide icons from `@lucide/astro` package
+- Never create inline SVGs when a Lucide icon exists
+- Import icons like: `import { IconName } from "@lucide/astro";`
+- Use icons as components: `<IconName class="h-5 w-5" />`
+- Browse available icons at https://lucide.dev/icons
+
 ## Important Notes
 
 - The site defaults to dark mode (see `src/layouts/Layout.astro:12`)
