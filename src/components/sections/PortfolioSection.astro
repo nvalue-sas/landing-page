@@ -28,14 +28,14 @@ import { BriefcaseBusiness, MoveRight, ChevronRight } from "@lucide/astro";
             >Nuestros Proyectos</span
           >
           <br />
-          <span class="font-light text-secondary-700 dark:text-secondary-200"
+          <span class="font-light text-secondary-700 dark:text-gray-300"
             >Demuestran nuestra experiencia</span
           >
         </h2>
 
         <!-- Description Paragraph -->
         <p
-          class="mb-8 text-lg leading-relaxed text-secondary-400 sm:text-xl dark:text-secondary-100"
+          class="mb-8 text-lg leading-relaxed text-secondary-400 sm:text-xl dark:text-gray-400"
         >
           Soluciones digitales que impulsan el crecimiento. Desde aplicaciones
           web hasta dashboards analíticos, transformamos ideas en productos
@@ -72,5 +72,121 @@ import { BriefcaseBusiness, MoveRight, ChevronRight } from "@lucide/astro";
         <DashboardMockup />
       </div>
     </div>
+
+    <!-- Tech Stack Marquee -->
+    <div class="marquee-mask mt-20 w-full overflow-hidden py-8">
+      <div class="hover:paused flex w-max animate-marquee-scroll gap-16">
+        <!-- Group 1 -->
+        <div class="flex shrink-0 items-center gap-16">
+          <img src="/stack/java.svg" alt="Java" class="marquee-logo h-10" />
+          <img
+            src="/stack/spring-boot.svg"
+            alt="Spring Boot"
+            class="marquee-logo h-10"
+          />
+          <img
+            src="/stack/jakarta-ee.svg"
+            alt="Jakarta EE"
+            class="marquee-logo h-10"
+          />
+          <img
+            src="/stack/python-3.svg"
+            alt="Python"
+            class="marquee-logo h-10"
+          />
+          <img
+            src="/stack/astro-logo-light-gradient.svg"
+            alt="Astro"
+            class="marquee-logo hidden h-10 dark:block"
+          />
+          <img
+            src="/stack/astro-logo-dark.svg"
+            alt="Astro"
+            class="marquee-logo h-10 dark:hidden"
+          />
+          <img src="/stack/react.svg" alt="React" class="marquee-logo h-10" />
+          <img
+            src="/stack/nextjs.svg"
+            alt="Next.js"
+            class="marquee-logo h-10 fill-white dark:fill-black"
+          />
+        </div>
+
+        <!-- Group 2 (duplicate for seamless loop) -->
+        <div class="flex shrink-0 items-center gap-16" aria-hidden="true">
+          <img src="/stack/java.svg" alt="Java" class="marquee-logo h-10" />
+          <img
+            src="/stack/spring-boot.svg"
+            alt="Spring Boot"
+            class="marquee-logo h-10"
+          />
+          <img
+            src="/stack/jakarta-ee.svg"
+            alt="Jakarta EE"
+            class="marquee-logo h-10"
+          />
+          <img
+            src="/stack/python-3.svg"
+            alt="Python"
+            class="marquee-logo h-10"
+          />
+          <img
+            src="/stack/astro-logo-light-gradient.svg"
+            alt="Astro"
+            class="marquee-logo h-10 dark:hidden"
+          />
+          <img
+            src="/stack/astro-logo-dark.svg"
+            alt="Astro"
+            class="marquee-logo hidden h-10 dark:block"
+          />
+          <img src="/stack/react.svg" alt="React" class="marquee-logo h-10" />
+          <img
+            src="/stack/nextjs.svg"
+            alt="Next.js"
+            class="marquee-logo h-10 fill-white dark:fill-black"
+          />
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
+<style>
+  .marquee-mask {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      black 15%,
+      black 85%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      black 15%,
+      black 85%,
+      transparent 100%
+    );
+  }
+
+  .marquee-logo {
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+  }
+
+  .marquee-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
+  :global(.dark) .marquee-logo {
+    filter: grayscale(100%) brightness(2);
+  }
+
+  :global(.dark) .marquee-logo:hover {
+    filter: grayscale(0%) brightness(1);
+  }
+</style>

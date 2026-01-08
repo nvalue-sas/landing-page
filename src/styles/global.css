@@ -26,4 +26,16 @@
   --color-secondary-800: #454545;
   --color-secondary-900: #3d3d3d;
   --color-secondary-950: #2e2e2e;
+
+  /* Custom marquee animation */
+  --animate-marquee-scroll: marquee-scroll 40s linear infinite;
+
+  @keyframes marquee-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
