@@ -1,4 +1,6 @@
 ---
+import { Toaster } from "@/components/ui/toaster";
+
 interface Props {
   title: string;
   description?: string;
@@ -53,5 +55,6 @@ const { title, description = "nValue: You dream it, we code it." } =
   </head>
   <body class="bg-gray-50 font-sans antialiased dark:bg-black">
     <slot />
+    <Toaster client:load />
   </body>
 </html>
