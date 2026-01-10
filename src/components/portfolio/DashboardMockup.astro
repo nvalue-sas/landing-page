@@ -1,7 +1,4 @@
 ---
-// Dashboard Mockup Component - Professional dashboard inspired by PrimeVue
-// Features: Sidebar, Header, Tabs, Charts, Table, Portfolio section
-// Interactivity: CSS-only with minimal JS for tab switching
 import {
   LayoutDashboard,
   House,
@@ -20,9 +17,19 @@ import {
 ---
 
 <div class="relative mx-auto w-full max-w-4xl">
+  <!-- Decorative Elements (Now inside the relative container) -->
+  <div
+    class="absolute -top-6 -right-6 -z-10 h-32 w-32 rounded-full bg-linear-to-br from-primary-400/20 to-cyan-400/20 blur-3xl"
+  >
+  </div>
+  <div
+    class="absolute -bottom-6 -left-6 -z-10 h-40 w-40 rounded-full bg-linear-to-br from-purple-400/20 to-pink-400/20 blur-3xl"
+  >
+  </div>
+
   <!-- Browser Window Frame -->
   <div
-    class="overflow-hidden rounded-2xl border border-gray-200/60 bg-white shadow-2xl dark:border-gray-700/50 dark:bg-gray-900"
+    class="relative z-10 overflow-hidden rounded-2xl border border-gray-200/60 bg-white shadow-2xl dark:border-gray-700/50 dark:bg-gray-900"
   >
     <!-- Browser Header -->
     <div
@@ -393,14 +400,6 @@ import {
 </div>
 
 <!-- Decorative Elements -->
-<div
-  class="absolute -top-6 -right-6 -z-10 h-32 w-32 rounded-full bg-linear-to-br from-primary-400/20 to-cyan-400/20 blur-3xl"
->
-</div>
-<div
-  class="absolute -bottom-6 -left-6 -z-10 h-40 w-40 rounded-full bg-linear-to-br from-purple-400/20 to-pink-400/20 blur-3xl"
->
-</div>
 
 <style>
   /* Smooth animation for bars on page load */

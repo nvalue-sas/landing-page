@@ -1,12 +1,12 @@
 ---
 import { services } from "@/data/services.js";
-import { getIconSvg } from "@/utils/ServicesIconsHelper.js";
 import { getColorClass } from "@/utils/ServicesStylesHelper.js";
+import * as LucideIcons from "@lucide/astro";
 ---
 
 <section id="services" class="py-10">
   <div
-    class="container mx-auto max-w-7xl bg-[image:radial-gradient(var(--pattern-fg)_1px,_transparent_0)] bg-[size:10px_10px] bg-fixed px-6 py-10 text-slate-700 [--pattern-fg:var(--color-gray-950)]/5 after:pointer-events-none after:rounded-lg after:inset-ring-gray-950/5 dark:text-secondary-200 dark:[--pattern-fg:var(--color-white)]/10 dark:after:inset-ring-white/10"
+    class="container mx-auto max-w-7xl bg-[radial-gradient(var(--pattern-fg)_1px,transparent_0)] bg-size-[10px_10px] bg-fixed px-6 py-10 text-slate-700 [--pattern-fg:var(--color-gray-950)]/5 after:pointer-events-none after:rounded-lg after:inset-ring-gray-950/5 dark:text-secondary-200 dark:[--pattern-fg:var(--color-white)]/10 dark:after:inset-ring-white/10"
   >
     <div class="mx-auto mb-16 max-w-3xl text-center">
       <h2 class="animate-on-scroll mb-4 text-3xl font-bold md:text-4xl">
@@ -23,26 +23,29 @@ import { getColorClass } from "@/utils/ServicesStylesHelper.js";
 
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       {
-        services.map((service, index) => (
-          <div
-            class={`animate-on-scroll rounded-lg border p-6 ${getColorClass(service.color)}`}
-            style={`animation-delay: ${index * 100}ms`}
-          >
-            <div class="mb-4">
-              <div
-                class={`flex h-12 w-12 items-center justify-center rounded-lg ${service.color === "primary" ? "bg-primary-400/10" : service.color === "secondary" ? "bg-teal-400/10" : "bg-pink-400/10"}`}
-              >
-                <Fragment set:html={getIconSvg(service.icon)} />
+        services.map((service, index) => {
+          const IconComponent = (LucideIcons as any)[service.icon];
+          return (
+            <div
+              class={`animate-on-scroll rounded-lg border p-6 ${getColorClass(service.color)}`}
+              style={`animation-delay: ${index * 100}ms`}
+            >
+              <div class="mb-4">
+                <div
+                  class={`flex h-12 w-12 items-center justify-center rounded-lg ${service.color === "primary" ? "bg-primary-400/10" : service.color === "secondary" ? "bg-teal-400/10" : "bg-pink-400/10"}`}
+                >
+                  <IconComponent class="h-6 w-6" />
+                </div>
               </div>
+              <h3 class="mb-3 text-xl font-semibold dark:text-secondary-100">
+                {service.title}
+              </h3>
+              <p class="text-slate-700 dark:text-gray-400">
+                {service.description}
+              </p>
             </div>
-            <h3 class="mb-3 text-xl font-semibold dark:text-secondary-100">
-              {service.title}
-            </h3>
-            <p class="text-slate-700 dark:text-gray-400">
-              {service.description}
-            </p>
-          </div>
-        ))
+          );
+        })
       }
     </div>
   </div>

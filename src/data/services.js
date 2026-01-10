@@ -1,44 +1,44 @@
 export const services = [
   {
-    title: "Software Empresarial a la Medida",
+    title: "Inteligencia Artificial",
     description:
-      "Soluciones diseñadas para resolver sus desafíos de negocio específicos y optimizar sus operaciones.",
-    icon: "laptop-code",
+      "Transformamos sus procesos integrando capacidades de IA. Diseñamos soluciones inteligentes y adaptables que automatizan decisiones, optimizan la operación y generan nuevas ventajas competitivas.",
+    icon: "Sparkles",
     color: "primary",
   },
   {
-    title: "Modernización de Sistemas Legados",
+    title: "Plataformas Web",
     description:
-      "Transformamos sistemas obsoletos en aplicaciones modernas y eficientes, sin interrumpir sus procesos de negocio.",
-    icon: "arrows-rotate",
+      "Construimos ecosistemas digitales robustos y de alta disponibilidad. Nos enfocamos en la escalabilidad y la experiencia de usuario, utilizando arquitecturas modernas y eficientes.",
+    icon: "Globe",
     color: "secondary",
   },
   {
-    title: "Soluciones para Gobierno y Sector Público",
+    title: "Aplicaciones Móviles",
     description:
-      "Software seguro y conforme a la normativa, diseñado específicamente para agencias gubernamentales e instituciones públicas.",
-    icon: "building-columns",
+      "Extendemos su negocio a cualquier dispositivo. Desarrollo de aplicaciones nativas y multiplataforma (iOS y Android) diseñadas para conectar con sus usuarios en cualquier lugar.",
+    icon: "Smartphone",
     color: "accent",
   },
   {
-    title: "Automatización de Procesos de Negocio",
+    title: "Ingeniería de Hardware y IoT",
     description:
-      "Optimice sus operaciones con automatización inteligente que reduce costos y mejora la eficiencia.",
-    icon: "gears",
+      "Vamos más allá del software. Diseñamos e integramos dispositivos electrónicos, robótica y conectividad satelital para crear soluciones físicas tangibles y a medida.",
+    icon: "Cpu",
     color: "primary",
   },
   {
-    title: "Servicios de Integración",
+    title: "Infraestructura y Data Center",
     description:
-      "Conectamos de forma transparente sus sistemas existentes y aplicaciones de terceros para un flujo de datos optimizado.",
-    icon: "link",
+      "Gestionamos su infraestructura física y virtual. Despliegue de servidores locales, redes seguras y backups para garantizar la soberanía y confidencialidad de sus datos.",
+    icon: "Server",
     color: "secondary",
   },
   {
-    title: "Analítica de Datos e Inteligencia de Negocio",
+    title: "Soporte y Continuidad Operativa",
     description:
-      "Transforme sus datos en información de valor con potentes herramientas de análisis y visualización.",
-    icon: "chart-line",
+      "Acompañamiento post-implementación con equipos dedicados. Mesas de ayuda y monitoreo constante para garantizar la estabilidad de herramientas críticas de alto tráfico.",
+    icon: "Headset",
     color: "accent",
   },
 ];
