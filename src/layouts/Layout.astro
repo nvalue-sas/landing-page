@@ -1,5 +1,6 @@
 ---
 import { Toaster } from "@/components/ui/toaster";
+import "@fontsource-variable/sora";
 
 interface Props {
   title: string;
@@ -53,7 +54,7 @@ const { title, description = "nValue: You dream it, we code it." } =
     />
     <link rel="icon" type="icon" href="/favicon.ico" />
   </head>
-  <body class="bg-gray-50 font-sans antialiased dark:bg-black">
+  <body class="bg-gray-50 font-sora antialiased dark:bg-black">
     <slot />
     <Toaster client:load />
   </body>

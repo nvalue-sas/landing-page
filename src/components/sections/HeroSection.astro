@@ -1,4 +1,6 @@
 ---
+import type { callSafely } from "astro:actions";
+import { BackgroundRippleEffect } from "../ui/background-ripple-effect";
 import { Vortex } from "../ui/vortex";
 import HeroContent from "./HeroContent.astro";
 ---
@@ -7,6 +9,7 @@ import HeroContent from "./HeroContent.astro";
   id="hero"
   class="relative mx-auto flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 py-20 sm:px-6 md:py-24 lg:px-8"
 >
+  <BackgroundRippleEffect client:load />
   <!-- Vortex solo en dark mode -->
   <div class="hidden dark:block">
     <Vortex client:load baseHue={185}>
