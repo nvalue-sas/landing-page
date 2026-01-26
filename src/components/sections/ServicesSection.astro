@@ -28,9 +28,14 @@ import * as LucideIcons from "@lucide/astro";
       {
         services.map((service, index) => {
           const IconComponent = (LucideIcons as any)[service.icon];
+          const titleHoverColor = service.color === "primary"
+            ? "dark:group-hover:text-cyan-400"
+            : service.color === "secondary"
+            ? "dark:group-hover:text-teal-400"
+            : "dark:group-hover:text-pink-400";
           return (
             <div
-              class={`animate-on-scroll rounded-lg border p-6 ${getColorClass(service.color)}`}
+              class={`group animate-on-scroll rounded-lg border p-6 ${getColorClass(service.color)}`}
               style={`animation-delay: ${index * 100}ms`}
             >
               <div class="mb-4">
@@ -40,7 +45,7 @@ import * as LucideIcons from "@lucide/astro";
                   <IconComponent class="h-6 w-6" />
                 </div>
               </div>
-              <h3 class="mb-3 text-xl font-semibold dark:text-secondary-100">
+              <h3 class={`mb-3 text-xl font-semibold transition-colors duration-300 dark:text-secondary-100 ${titleHoverColor}`}>
                 {service.title}
               </h3>
               <p class="text-slate-700 dark:text-gray-400">
