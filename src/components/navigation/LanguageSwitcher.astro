@@ -1,0 +1,27 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+
+const path = Astro.url.pathname.replace(/^\/en(\/|$)/, "/").replace(/^\//, "");
+---
+
+<div
+  class="flex items-center gap-1.5 font-mono text-[10px] tracking-widest text-secondary-500 uppercase dark:text-secondary-400"
+>
+  <a
+    href={getRelativeLocaleUrl("es", path)}
+    class={Astro.currentLocale === "es"
+      ? "text-cyan-600 dark:text-cyan-400"
+      : "transition-colors hover:text-cyan-600 dark:hover:text-cyan-400"}
+  >
+    ES
+  </a>
+  <span>/</span>
+  <a
+    href={getRelativeLocaleUrl("en", path)}
+    class={Astro.currentLocale === "en"
+      ? "text-cyan-600 dark:text-cyan-400"
+      : "transition-colors hover:text-cyan-600 dark:hover:text-cyan-400"}
+  >
+    EN
+  </a>
+</div>

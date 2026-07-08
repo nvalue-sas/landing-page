@@ -1,6 +1,7 @@
 ---
 import { Toaster } from "@/components/ui/toaster";
-import "@fontsource-variable/sora";
+import { defaultLang } from "@/i18n/ui";
+import "@fontsource-variable/space-grotesk";
 
 interface Props {
   title: string;
@@ -12,7 +13,7 @@ const { title, description = "nValue: You dream it, we code it." } =
 ---
 
 <!doctype html>
-<html lang="es" class="dark scroll-smooth">
+<html lang={Astro.currentLocale ?? defaultLang} class="dark scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -54,7 +55,7 @@ const { title, description = "nValue: You dream it, we code it." } =
     />
     <link rel="icon" type="icon" href="/favicon.ico" />
   </head>
-  <body class="bg-gray-50 font-sora antialiased dark:bg-black">
+  <body class="bg-gray-50 font-space-grotesk antialiased dark:bg-black">
     <slot />
     <Toaster client:load />
   </body>
