@@ -196,7 +196,7 @@ export function RuntimeCard() {
   return (
     <div className="flex flex-col gap-4">
       <div
-        className="relative overflow-hidden rounded-2xl border border-secondary-300/60 bg-white/60 shadow-2xl shadow-cyan-500/10 backdrop-blur-md dark:border-white/10 dark:bg-white/[0.03] dark:shadow-black/40"
+        className="relative overflow-hidden rounded-2xl border border-secondary-300/60 bg-white/60 shadow-2xl shadow-cyan-500/10 backdrop-blur-md dark:border-white/10 dark:bg-white/3 dark:shadow-black/40"
         aria-live="polite"
       >
         {/* Vertical scan sweep: a soft cyan glow band led by a crisp,
