@@ -1,0 +1,103 @@
+---
+import { useTranslations } from "@/i18n/utils";
+
+const t = useTranslations(Astro.currentLocale);
+const scheduleEmail = "info@nvalue.com.co";
+---
+
+<section id="cta" class="relative overflow-hidden py-24 sm:py-32">
+  <div
+    class="pointer-events-none absolute inset-x-0 top-1/2 mx-auto h-[420px] w-[820px] max-w-full -translate-y-1/2 rounded-full"
+    style={`background: radial-gradient(closest-side, rgb(var(--accent-cyan) / 18%), transparent 70%);`}
+    aria-hidden="true"
+  >
+  </div>
+
+  <div class="relative mx-auto max-w-7xl px-6">
+    <!-- Section label -->
+    <div
+      data-reveal
+      class="flex items-center gap-3 font-mono text-[11px] tracking-[0.22em] text-cyan-600 uppercase opacity-0 dark:text-cyan-400"
+    >
+      <span>04</span>
+      <span class="h-px w-8 bg-cyan-500/50 dark:bg-cyan-400/50"></span>
+      <span>{t("cta.label")}</span>
+    </div>
+
+    <!-- Heading -->
+    <h2
+      data-reveal
+      class="animate-delay-150 mx-auto mt-6 max-w-3xl text-center text-[clamp(1.8rem,3.6vw,2.8rem)] leading-tight font-semibold tracking-tight text-balance text-secondary-900 opacity-0 dark:text-secondary-100"
+    >
+      {t("cta.heading_before")}<span
+        class="text-cyan-500 [text-shadow:0_0_30px_rgba(6,182,212,0.5)] dark:text-cyan-400"
+        >{t("cta.heading_highlight")}</span
+      >{t("cta.heading_after")}
+    </h2>
+
+    <!-- Subtitle -->
+    <p
+      data-reveal
+      class="animate-delay-300 mx-auto mt-5 max-w-xl text-center text-base leading-relaxed text-pretty text-secondary-400 dark:text-secondary-300"
+    >
+      {t("cta.subtitle")}
+    </p>
+
+    <!-- CTA Buttons -->
+    <div
+      data-reveal
+      class="animate-delay-500 mt-8 flex flex-wrap items-center justify-center gap-3 opacity-0"
+    >
+      <a
+        href={`mailto:${scheduleEmail}`}
+        class="group inline-flex items-center justify-center gap-2 rounded-md bg-cyan-500 px-5 py-3 text-sm font-medium text-white shadow-lg shadow-cyan-500/25 transition-all duration-200 hover:-translate-y-px hover:shadow-cyan-500/40 active:scale-[0.98] dark:bg-cyan-400 dark:text-secondary-950"
+      >
+        {t("cta.schedule_conversation")}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+        >
+          <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path>
+        </svg>
+      </a>
+
+      <a
+        href={`mailto:${scheduleEmail}`}
+        class="inline-flex items-center justify-center gap-2 rounded-md border border-secondary-300 px-5 py-3 text-sm font-medium text-secondary-700 transition-all duration-200 hover:border-cyan-500/70 hover:text-cyan-600 active:scale-[0.98] dark:border-secondary-700 dark:text-secondary-200 dark:hover:border-cyan-400/60 dark:hover:text-cyan-400"
+      >
+        {scheduleEmail}
+      </a>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Reveal on scroll: los elementos parten en opacity-0 y, al entrar en
+  // viewport, se les aplica la utilidad animate-fade-in-up del plugin
+  // (que ya incluye fill-mode: both, así el estado final se sostiene).
+  const revealables = document.querySelectorAll<HTMLElement>(
+    "#cta [data-reveal]",
+  );
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add(
+          "animate-fade-in-up",
+          "animate-duration-700",
+        );
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.2 },
+  );
+
+  revealables.forEach((el) => observer.observe(el));
+</script>

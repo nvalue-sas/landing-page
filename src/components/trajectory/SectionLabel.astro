@@ -1,0 +1,16 @@
+---
+interface Props {
+  n: string;
+}
+
+const { n } = Astro.props;
+---
+
+<div
+  data-reveal
+  class="flex items-center gap-3 font-mono text-[11px] tracking-[0.22em] text-cyan-600 uppercase opacity-0 dark:text-cyan-400"
+>
+  <span>{n}</span>
+  <span class="h-px w-8 bg-cyan-500/50 dark:bg-cyan-400/50"></span>
+  <span><slot /></span>
+</div>

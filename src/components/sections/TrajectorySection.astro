@@ -1,6 +1,12 @@
 ---
-// Sección "Trayectoria". Pendiente de contenido: el usuario pasará el ejemplo
-// a implementar. Por ahora solo el contenedor e id de ancla.
+import { CONTENT } from "@/components/trajectory/content";
+import SectionLabel from "@/components/trajectory/SectionLabel.astro";
+import MetricsGrid from "@/components/trajectory/MetricsGrid.astro";
+import CaseList from "@/components/trajectory/CaseList.astro";
+import { defaultLang } from "@/i18n/ui";
+
+const lang = Astro.currentLocale === "en" ? "en" : defaultLang;
+const c = CONTENT[lang];
 ---
 
 <section
@@ -8,6 +14,43 @@
   class="relative py-24 sm:py-32"
 >
   <div class="mx-auto max-w-7xl px-6">
-    {/* TODO: implementar la sección de trayectoria */}
+    <div class="grid gap-10 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
+      <div>
+        <SectionLabel n="03">{c.label}</SectionLabel>
+        <h2
+          data-reveal
+          class="animate-delay-150 mt-6 text-[clamp(1.8rem,3.6vw,2.8rem)] leading-tight font-semibold tracking-tight text-balance text-secondary-900 opacity-0 dark:text-secondary-100"
+        >
+          {c.heading}
+        </h2>
+        <MetricsGrid metrics={c.metrics} />
+      </div>
+      <CaseList cases={c.cases} />
+    </div>
   </div>
 </section>
+
+<script>
+  // Reveal on scroll: los elementos parten en opacity-0 y, al entrar en
+  // viewport, se les aplica la utilidad animate-fade-in-up del plugin
+  // (que ya incluye fill-mode: both, así el estado final se sostiene).
+  const revealables = document.querySelectorAll<HTMLElement>(
+    "#trajectory [data-reveal]",
+  );
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add(
+          "animate-fade-in-up",
+          "animate-duration-700",
+        );
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.2 },
+  );
+
+  revealables.forEach((el) => observer.observe(el));
+</script>

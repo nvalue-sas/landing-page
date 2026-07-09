@@ -1,0 +1,32 @@
+---
+import type { CaseItem } from "@/components/trajectory/types";
+
+interface Props {
+  cases: CaseItem[];
+}
+
+const { cases } = Astro.props;
+---
+
+<ul
+  data-reveal
+  class="animate-delay-300 mt-14 grid gap-px overflow-hidden rounded-xl border border-secondary-300/70 bg-secondary-300/70 opacity-0 lg:mt-0 dark:border-white/10 dark:bg-white/10"
+>
+  {
+    cases.map((item, i) => (
+      <li class="grid grid-cols-[auto_1fr] gap-5 bg-gray-50 p-6 transition-colors duration-300 hover:bg-white sm:p-7 dark:bg-black dark:hover:bg-white/3">
+        <span class="font-mono text-xs text-cyan-600 dark:text-cyan-400">
+          {String(i + 1).padStart(2, "0")}
+        </span>
+        <div class="min-w-0">
+          <h3 class="text-base font-semibold text-secondary-900 sm:text-lg dark:text-secondary-100">
+            {item.title}
+          </h3>
+          <p class="mt-2 text-sm leading-relaxed text-secondary-500 dark:text-secondary-400">
+            {item.description}
+          </p>
+        </div>
+      </li>
+    ))
+  }
+</ul>
