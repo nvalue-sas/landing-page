@@ -1,5 +1,4 @@
 ---
-import { Toaster } from "@/components/ui/toaster";
 import { defaultLang } from "@/i18n/ui";
 import "@fontsource-variable/space-grotesk";
 
@@ -57,6 +56,5 @@ const { title, description = "nValue: You dream it, we code it." } =
   </head>
   <body class="bg-gray-50 font-space-grotesk antialiased dark:bg-black">
     <slot />
-    <Toaster client:load />
   </body>
 </html>

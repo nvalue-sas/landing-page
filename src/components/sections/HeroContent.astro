@@ -1,5 +1,5 @@
 ---
-import { HeroButtons } from "./HeroButtons";
+import HeroButtons from "./HeroButtons.astro";
 import { RuntimeCard } from "@/components/hero/RuntimeCard";
 import { useTranslations } from "@/i18n/utils";
 
@@ -52,13 +52,9 @@ const t = useTranslations(Astro.currentLocale);
       class="animate-blurred-fade-in animate-delay-500 animate-duration-500 mt-8"
     >
       <HeroButtons
-        client:load
         scheduleLabel={t("hero.schedule_conversation")}
         viewWorkLabel={t("hero.view_work")}
-        toastScheduleTitle={t("hero.toast_schedule_title")}
-        toastScheduleDescription={t("hero.toast_schedule_description")}
-        toastViewWorkTitle={t("hero.toast_view_work_title")}
-        toastViewWorkDescription={t("hero.toast_view_work_description")}
+        scheduleEmail="info@nvalue.com.co"
       />
     </div>
   </div>
