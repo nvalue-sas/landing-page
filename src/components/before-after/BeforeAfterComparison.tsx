@@ -330,7 +330,7 @@ export function BeforeAfterComparison({ lang }: { lang?: string }) {
       </div>
 
       {/* the event bar */}
-      <div className="mt-8 flex items-center gap-3 rounded-lg border border-secondary-300/60 bg-secondary-100/40 px-4 py-3 dark:border-white/10 dark:bg-white/[0.03]">
+      <div className="mt-8 flex items-center gap-3 rounded-lg border border-secondary-300/60 bg-secondary-100/40 px-4 py-3 dark:border-white/10 dark:bg-white/3">
         <span className="font-mono text-[10px] tracking-[0.22em] text-secondary-500 uppercase dark:text-secondary-400">
           {c.eventLabel}
         </span>
@@ -490,7 +490,7 @@ export function BeforeAfterComparison({ lang }: { lang?: string }) {
 
         {/* AHORA — topología de decisión */}
         <article
-          className="relative overflow-hidden rounded-xl border border-cyan-500/40 bg-white/60 dark:border-cyan-400/40 dark:bg-white/[0.03]"
+          className="relative overflow-hidden rounded-xl border border-cyan-500/40 bg-white/60 dark:border-cyan-400/40 dark:bg-white/3"
           style={{ boxShadow: `0 30px 80px -40px ${cyanA(0.5)}` }}
         >
           <div
@@ -503,7 +503,7 @@ export function BeforeAfterComparison({ lang }: { lang?: string }) {
             }}
             aria-hidden
           />
-          <header className="relative flex items-center justify-between border-b border-cyan-500/30 bg-white/40 px-5 py-3 dark:border-cyan-400/30 dark:bg-white/[0.02]">
+          <header className="relative flex items-center justify-between border-b border-cyan-500/30 bg-white/40 px-5 py-3 dark:border-cyan-400/30 dark:bg-white/2">
             <div className="flex items-center gap-2 font-mono text-[10px] tracking-[0.22em] text-cyan-600 uppercase dark:text-cyan-400">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-cyan-500 dark:bg-cyan-400" />
               {c.topology}
@@ -525,7 +525,7 @@ export function BeforeAfterComparison({ lang }: { lang?: string }) {
             {/* tarjeta de recomendación */}
             <div
               className={
-                "mt-5 rounded-lg border border-cyan-500/40 bg-secondary-100/50 p-4 transition-all duration-500 dark:border-cyan-400/40 dark:bg-white/[0.04] " +
+                "mt-5 rounded-lg border border-cyan-500/40 bg-secondary-100/50 p-4 transition-all duration-500 dark:border-cyan-400/40 dark:bg-white/4" +
                 (allShown
                   ? "translate-y-0 opacity-100"
                   : "pointer-events-none translate-y-2 opacity-0")
@@ -665,7 +665,7 @@ function DecisionGraph({
     <div className="relative">
       <svg
         viewBox={`0 0 ${W} ${H}`}
-        className="h-[240px] w-full"
+        className="h-60 w-full"
         preserveAspectRatio="xMidYMid meet"
       >
         <defs>
