@@ -1,0 +1,16 @@
+---
+import { BeforeAfterComparison } from "@/components/before-after/BeforeAfterComparison";
+import { defaultLang } from "@/i18n/ui";
+---
+
+<section
+  id="before-after"
+  class="relative py-24 sm:py-32"
+>
+  <div class="mx-auto max-w-7xl px-6">
+    <BeforeAfterComparison
+      client:visible
+      lang={Astro.currentLocale ?? defaultLang}
+    />
+  </div>
+</section>

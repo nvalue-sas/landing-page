@@ -87,6 +87,9 @@
 
 :root {
   --radius: 0.625rem;
+  /* Acento cian como canales RGB, para usarlo con alpha en SVG (rgb(var(--accent-cyan) / .5)).
+     Coincide con cyan-500 en claro y se sobreescribe a cyan-400 en oscuro. */
+  --accent-cyan: 6 182 212;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -121,6 +124,7 @@
 }
 
 .dark {
+  --accent-cyan: 34 211 238;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -160,6 +164,23 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* Al abrir el menú móvil la barra deja de ser translúcida y adopta la misma
+   superficie opaca del panel, para que ambos se lean como una sola pieza.
+   Va en la capa `utilities` porque en Tailwind v4 esta capa gana a `components`
+   sin importar la especificidad; de lo contrario `bg-white/60` seguiría activo. */
+@layer utilities {
+  #navbar-container.menu-open {
+    background-color: var(--background);
+    border-color: var(--color-gray-200);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .dark #navbar-container.menu-open {
+    border-color: rgb(255 255 255 / 0.1);
   }
 }
 

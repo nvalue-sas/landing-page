@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "Inicio", href: "#hero" },
-  { name: "Servicios", href: "#services" },
-  { name: "Portafolio", href: "#portfolio" },
-];
+  { key: "nav.what_we_do", href: "#what-we-do" },
+  { key: "nav.trajectory", href: "#trajectory" },
+  { key: "nav.about", href: "#about" },
+] as const;

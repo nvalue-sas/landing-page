@@ -1,5 +1,8 @@
 ---
 import { navItems } from "./navItems";
+import { useTranslations } from "@/i18n/utils";
+
+const t = useTranslations(Astro.currentLocale);
 ---
 
 <div class="hidden items-center space-x-8 md:flex">
@@ -9,7 +12,7 @@ import { navItems } from "./navItems";
         href={item.href}
         class="text-base font-medium text-secondary-700 transition-colors hover:text-primary-600 dark:text-secondary-100 dark:hover:text-cyan-400"
       >
-        {item.name}
+        {t(item.key)}
       </a>
     ))
   }
